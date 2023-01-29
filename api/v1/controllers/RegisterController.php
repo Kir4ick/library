@@ -3,9 +3,9 @@
 namespace app\api\v1\controllers;
 
 use app\api\controllers\BaseApiController;
-use app\api\v1\requests\register\RegisterClientRequest;
-use app\api\v1\requests\register\RegisterWorkerRequest;
-use app\api\v1\services\RegisterSerivce;
+use app\src\requests\register\RegisterClientRequest;
+use app\src\requests\register\RegisterWorkerRequest;
+use app\src\services\RegisterSerivce;
 use yii\filters\AccessControl;
 
 

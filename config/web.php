@@ -38,7 +38,7 @@ $config = [
             'class' => 'yii\caching\FileCache',
         ],
         'user' => [
-            'identityClass' => 'app\api\models\Worker',
+            'identityClass' => 'app\src\models\Worker',
             'enableAutoLogin' => true,
         ],
         'mailer' => [

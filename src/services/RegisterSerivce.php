@@ -1,18 +1,18 @@
 <?php
 
-namespace app\api\v1\services;
+namespace app\src\services;
 
-use app\api\interfaces\RegisterServiceInterface;
-use app\api\models\Client;
-use app\api\models\Worker;
-use app\api\v1\requests\register\RegisterClientRequest;
-use app\api\v1\requests\register\RegisterWorkerRequest;
+use app\src\interfaces\RegisterServiceInterface;
+use app\src\models\Client;
+use app\src\models\Worker;
+use app\src\requests\register\RegisterClientRequest;
+use app\src\requests\register\RegisterWorkerRequest;
 use yii\base\Model;
 
 class RegisterSerivce implements RegisterServiceInterface
 {
     /**
-     * @param RegisterClientRequest $request
+     * @param \app\src\requests\register\RegisterClientRequest $request
      * @return array
      */
     public function registerClient(Model $request): array

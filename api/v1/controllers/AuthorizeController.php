@@ -3,7 +3,7 @@
 namespace app\api\v1\controllers;
 
 use app\api\controllers\BaseApiController;
-use app\api\v1\requests\LoginRequest;
+use app\src\requests\LoginRequest;
 
 class AuthorizeController extends BaseApiController
 {

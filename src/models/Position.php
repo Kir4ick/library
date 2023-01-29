@@ -1,8 +1,6 @@
 <?php
 
-namespace app\api\models;
-
-use Yii;
+namespace app\src\models;
 
 /**
  * This is the model class for table "position".
@@ -30,17 +28,6 @@ class Position extends \yii\db\ActiveRecord
         return [
             [['name'], 'string', 'max' => 255],
             ['name', 'required']
-        ];
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function attributeLabels()
-    {
-        return [
-            'id' => 'ID',
-            'name' => 'Name',
         ];
     }
 

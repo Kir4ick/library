@@ -1,10 +1,9 @@
 <?php
 
-namespace app\api\v1\requests\register;
+namespace app\src\requests\register;
 
-use app\api\models\Position;
-use app\api\models\Worker;
-use yii\base\Model;
+use app\src\models\Position;
+use app\src\models\Worker;
 
 class RegisterWorkerRequest extends MainRegisterRequest
 {

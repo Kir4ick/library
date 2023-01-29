@@ -1,8 +1,8 @@
 <?php
 
-namespace app\api\v1\requests;
+namespace app\src\requests;
 
-use app\api\models\Worker;
+use app\src\models\Worker;
 use yii\base\Model;
 
 class LoginRequest extends Model

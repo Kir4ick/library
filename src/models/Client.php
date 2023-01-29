@@ -1,8 +1,6 @@
 <?php
 
-namespace app\api\models;
-
-use Yii;
+namespace app\src\models;
 
 /**
  * This is the model class for table "client".

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\api\interfaces;
+namespace app\src\interfaces;
 
 use yii\base\Model;
 

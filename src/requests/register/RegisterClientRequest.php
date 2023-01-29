@@ -1,8 +1,6 @@
 <?php
 
-namespace app\api\v1\requests\register;
-
-use yii\base\Model;
+namespace app\src\requests\register;
 
 class RegisterClientRequest extends MainRegisterRequest
 {

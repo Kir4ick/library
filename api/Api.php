@@ -34,32 +34,19 @@ class Api extends \yii\base\Module implements BootstrapInterface
             'class' => 'yii\rest\UrlRule',
             'pluralize' => false,
             'controller' => [
-                'api/v1/register',
+                'api/v1/position', 'api/v1/author', 'api/v1/authorize', 'api/v1/register', 'api/v1/book',
             ],
             'extraPatterns' => [
-                'POST register-client' => 'register-client',
-                'POST register-worker' => 'register-worker'
-            ]
-        ],
-        [
-            'class' => 'yii\rest\UrlRule',
-            'pluralize' => false,
-            'controller' => [
-                'api/v1/position',
-            ]
-        ],
-        [
-            'class' => 'yii\rest\UrlRule',
-            'pluralize' => false,
-            'controller' => [
-                'api/v1/authorize',
-            ],
-            'extraPatterns' => [
-                'POST authorize' => 'authorize',
+                'POST ' => 'authorize',
                 'GET me' => 'me',
-                'GET logout' => 'logout'
+                'GET logout' => 'logout',
+                'POST register-client' => 'register-client',
+                'POST register-worker' => 'register-worker',
+                'POST create' => 'create-book',
+                'GET ' => 'index-books',
             ]
-        ]
+        ],
+
     ]);
 }
 }
