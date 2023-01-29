@@ -15,6 +15,7 @@ use yii\db\Expression;
  * @property string|null $title
  * @property string $article
  * @property string|null $date_receipt
+ * @property bool|null $status
  *
  * @property Author[] $authors
  */
@@ -25,16 +26,7 @@ class Book extends \yii\db\ActiveRecord
         return 'book';
     }
 
-    public function behaviors()
-    {
-        return [
-            [
-                'class' => TimestampBehavior::class,
-                'createdAtAttribute' => 'create_time',
-                'value' => new Expression('NOW()'),
-            ]
-        ];
-    }
+
 
     public function rules()
     {
@@ -62,6 +54,11 @@ class Book extends \yii\db\ActiveRecord
     {
         $expression = new Expression('NOW()');
         $this->date_receipt = $expression;
+        return $this;
+    }
+
+    public function setStatus(){
+        $this->status = true;
         return $this;
     }
 

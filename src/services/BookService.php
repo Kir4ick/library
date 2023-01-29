@@ -23,7 +23,7 @@ class BookService implements BookServiceInterface
         try {
 
             $book = $book->setTitle($request->title)
-                ->setArticle()->setDateReceipt();
+                ->setArticle()->setDateReceipt()->setStatus();
             $book->save();
 
             if(is_array($request->author_name)){

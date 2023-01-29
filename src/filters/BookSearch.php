@@ -12,7 +12,6 @@ class BookSearch extends QueryFilter
 
     public function title(ActiveQuery $q, $value){
        $q->where(['like', 'title', $value.'%', false]);
-       return $q;
     }
 
     protected function getCallbacks()

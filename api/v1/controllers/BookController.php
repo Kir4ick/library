@@ -7,6 +7,7 @@ use app\src\filters\BookSearch;
 use app\src\interfaces\BookServiceInterface;
 use app\src\models\Book;
 use app\src\requests\BookCreateRequest;
+use yii\data\Pagination;
 
 class BookController extends BaseApiActiveController
 {
@@ -36,10 +37,10 @@ class BookController extends BaseApiActiveController
 
     public function actionIndexBooks(){
         $books = Book::find();
-        return (new BookSearch($_GET))->apply($books)->all();
+        $books = (new BookSearch($_GET))->apply($books);
+        $pagination = new Pagination(['totalCount' => $books->count(), 'pageSize' => 10]);
+        $books = $books->offset($pagination->offset)->limit($pagination->limit);
+        return $books->all();
     }
 
-    public function actionIndexTest(){
-        return ['asdasdads'];
-    }
 }

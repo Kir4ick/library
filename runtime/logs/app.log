@@ -1,0 +1,1873 @@
+2023-01-29 19:13:04 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php:224
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#2 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#4 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2023-01-29 19:13:04 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f07a52504571998a2e0729ccc29f455304344a43ff9a3a0d7e2231f3025c5c29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oQdJWaDNfdW4GgBDyjhGA2MsWfbrfzoY\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '09d10b53-dbf0-473d-8137-f256aaf9df2f'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f07a52504571998a2e0729ccc29f455304344a43ff9a3a0d7e2231f3025c5c29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oQdJWaDNfdW4GgBDyjhGA2MsWfbrfzoY%22%3B%7D'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '57800'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675008784.7866
+    'REQUEST_TIME' => 1675008784
+]
+2023-01-29 19:13:08 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php:224
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#2 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#4 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2023-01-29 19:13:08 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f07a52504571998a2e0729ccc29f455304344a43ff9a3a0d7e2231f3025c5c29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oQdJWaDNfdW4GgBDyjhGA2MsWfbrfzoY\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '448a949c-48bf-4cfb-8626-e77fc882fdb7'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f07a52504571998a2e0729ccc29f455304344a43ff9a3a0d7e2231f3025c5c29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oQdJWaDNfdW4GgBDyjhGA2MsWfbrfzoY%22%3B%7D'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '51140'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675008788.4311
+    'REQUEST_TIME' => 1675008788
+]
+2023-01-29 19:20:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:20:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'title' => 'море в'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '433a23bcb3504e09e2fc1b37dfac0b74ae81cdd46ae31c60d5cfbc08159e9610a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AVk_Y7Z2F1hHbVbldeFGzSUpqrmPI82P\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'c37a5a92-19ac-4491-abf4-822e8fea407f'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=433a23bcb3504e09e2fc1b37dfac0b74ae81cdd46ae31c60d5cfbc08159e9610a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AVk_Y7Z2F1hHbVbldeFGzSUpqrmPI82P%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63010'
+    'REDIRECT_URL' => '/api/v1/book/'
+    'REDIRECT_QUERY_STRING' => 'title=%D0%BC%D0%BE%D1%80%D0%B5%20%D0%B2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'title=%D0%BC%D0%BE%D1%80%D0%B5%20%D0%B2'
+    'REQUEST_URI' => '/api/v1/book/?title=%D0%BC%D0%BE%D1%80%D0%B5%20%D0%B2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009210.7897
+    'REQUEST_TIME' => 1675009210
+]
+2023-01-29 19:20:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:20:32 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RwAr1VortuHX9VbDOmikFii-qhejrO_0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'b5f2352f-b236-4614-acc2-4d68190db37b'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RwAr1VortuHX9VbDOmikFii-qhejrO_0%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63010'
+    'REDIRECT_URL' => '/api/v1/book/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009232.3056
+    'REQUEST_TIME' => 1675009232
+]
+2023-01-29 19:20:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:20:41 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RwAr1VortuHX9VbDOmikFii-qhejrO_0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '842089a8-dc83-4918-a71b-13fe924fc719'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RwAr1VortuHX9VbDOmikFii-qhejrO_0%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63010'
+    'REDIRECT_URL' => '/api/v1/book/b'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/b'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009241.5478
+    'REQUEST_TIME' => 1675009241
+]
+2023-01-29 19:21:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:21:34 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RwAr1VortuHX9VbDOmikFii-qhejrO_0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '965eede2-37a8-45f1-afbb-8e2df8670029'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RwAr1VortuHX9VbDOmikFii-qhejrO_0%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63010'
+    'REDIRECT_URL' => '/api/v1/book/index-test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/index-test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009294.2973
+    'REQUEST_TIME' => 1675009294
+]
+2023-01-29 19:21:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:21:37 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RwAr1VortuHX9VbDOmikFii-qhejrO_0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '24d216a0-3ec7-4bd9-b633-e8b4b3cf0e3d'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RwAr1VortuHX9VbDOmikFii-qhejrO_0%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63010'
+    'REDIRECT_URL' => '/api/v1/book/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009297.8156
+    'REQUEST_TIME' => 1675009297
+]
+2023-01-29 19:21:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:21:47 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RwAr1VortuHX9VbDOmikFii-qhejrO_0\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_POSTMAN_TOKEN' => '5cdaa087-f931-49cb-a375-174bf9b20b78'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=6c2a4a1162abbef7edb437a9263d42a7e2c4586a5c17cedad45a03192bfd2507a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RwAr1VortuHX9VbDOmikFii-qhejrO_0%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63010'
+    'REDIRECT_URL' => '/api/v1/book/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009307.8076
+    'REQUEST_TIME' => 1675009307
+]
+2023-01-29 19:28:01 [127.0.0.1][1][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Response content must not be an array. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Response.php:1111
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->prepare()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:27:59 [127.0.0.1][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '559edf91cb1c4010490dd7ee0132290c40c8a8b46c123a07a90bdc8b456dc822a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4lk1XO4Em75cuVcyIoHfPmR5NhjlQhDs\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_POSTMAN_TOKEN' => '5957a5b7-6fc5-4578-8df2-5b556104d4c7'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=559edf91cb1c4010490dd7ee0132290c40c8a8b46c123a07a90bdc8b456dc822a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224lk1XO4Em75cuVcyIoHfPmR5NhjlQhDs%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '57761'
+    'REDIRECT_URL' => '/api/v1/book/boobs'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/boobs'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009678.997
+    'REQUEST_TIME' => 1675009678
+]
+2023-01-29 19:28:18 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Object configuration must be an array containing a "class" or "__class" element. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\BaseYii.php:368
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(756): yii\BaseYii::createObject()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(740): yii\base\Component->attachBehaviorInternal()
+#2 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(609): yii\base\Component->ensureBehaviors()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-01-29 19:28:18 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '2646564645520b3d3271707eb419158a86f499864a47013cce346d360ca4f8aea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8p4XdAzUIJsgrZXpZ1oRey8wAXmnX7vH\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_POSTMAN_TOKEN' => '3527ac61-9448-44aa-a257-f0c15a19548b'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=2646564645520b3d3271707eb419158a86f499864a47013cce346d360ca4f8aea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228p4XdAzUIJsgrZXpZ1oRey8wAXmnX7vH%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '52673'
+    'REDIRECT_URL' => '/api/v1/book/boobs'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/boobs'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009698.0708
+    'REQUEST_TIME' => 1675009698
+]
+2023-01-29 19:31:30 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-29 19:31:30 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63259'
+    'REDIRECT_URL' => '/api/v1/book'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009890.3432
+    'REQUEST_TIME' => 1675009890
+]
+2023-01-29 19:31:53 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-29 19:31:53 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63259'
+    'REDIRECT_URL' => '/api/v1/book'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009913.8361
+    'REQUEST_TIME' => 1675009913
+]
+2023-01-29 19:31:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:31:53 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://library/api/v1/book'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63259'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009913.9026
+    'REQUEST_TIME' => 1675009913
+]
+2023-01-29 19:31:58 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-29 19:31:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63259'
+    'REDIRECT_URL' => '/api/v1/book'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009918.0412
+    'REQUEST_TIME' => 1675009918
+]
+2023-01-29 19:31:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:31:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://library/api/v1/book'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63259'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009918.1072
+    'REQUEST_TIME' => 1675009918
+]
+2023-01-29 19:32:06 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-29 19:32:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'title' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b116fb81ad7c75e6e11053eda95f316b8fe76001989d7655e18141c7a9f4ef61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1I8aiqsYoLOkU3_K7wQs79zaAec6dgCE\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_POSTMAN_TOKEN' => 'd3dca970-ba71-4860-82cf-0e45f32eab3e'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=b116fb81ad7c75e6e11053eda95f316b8fe76001989d7655e18141c7a9f4ef61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221I8aiqsYoLOkU3_K7wQs79zaAec6dgCE%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63266'
+    'REDIRECT_URL' => '/api/v1/book'
+    'REDIRECT_QUERY_STRING' => 'title='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'title='
+    'REQUEST_URI' => '/api/v1/book?title='
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009926.7417
+    'REQUEST_TIME' => 1675009926
+]
+2023-01-29 19:32:29 [127.0.0.1][-][-][error][Error] Error: Call to a member function all() on null in C:\OpenServer\domains\library\api\v1\controllers\BookController.php:39
+Stack trace:
+#0 [internal function]: app\api\v1\controllers\BookController->actionIndexBooks()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-01-29 19:32:29 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63259'
+    'REDIRECT_URL' => '/api/v1/book'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009949.0644
+    'REQUEST_TIME' => 1675009949
+]
+2023-01-29 19:32:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:32:29 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://library/api/v1/book'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63271'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009949.1405
+    'REQUEST_TIME' => 1675009949
+]
+2023-01-29 19:32:43 [127.0.0.1][-][-][error][Error] Error: Call to a member function all() on null in C:\OpenServer\domains\library\api\v1\controllers\BookController.php:39
+Stack trace:
+#0 [internal function]: app\api\v1\controllers\BookController->actionIndexBooks()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-01-29 19:32:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '74f814cbd7e2166f864d69c90a5265cea1238e03d2cb986ef8641d691dda97f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rx0g4dw3Vie47JE23CPxiMefV14MvQlD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_POSTMAN_TOKEN' => '8394fd99-db3e-4f6a-a920-f83379be00f2'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=74f814cbd7e2166f864d69c90a5265cea1238e03d2cb986ef8641d691dda97f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rx0g4dw3Vie47JE23CPxiMefV14MvQlD%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63266'
+    'REDIRECT_URL' => '/api/v1/book'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675009963.712
+    'REQUEST_TIME' => 1675009963
+]
+2023-01-29 19:33:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:33:53 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://library/api/v1/book'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=68c4d66b37c0344445357a8d5b0d2f4e8a24079ea8401dcf073937735f8a0902a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227jbQBg-fkNGNv1uVSOf2QCVRcKNWxNDA%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '63271'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675010033.73
+    'REQUEST_TIME' => 1675010033
+]
+2023-01-29 19:35:09 [127.0.0.1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Response content must not be an array. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Response.php:1111
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->prepare()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:35:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'title' => 'море'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '74f814cbd7e2166f864d69c90a5265cea1238e03d2cb986ef8641d691dda97f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rx0g4dw3Vie47JE23CPxiMefV14MvQlD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_POSTMAN_TOKEN' => '088f07bc-a3e7-4fbc-a4d2-87d369383fc6'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=74f814cbd7e2166f864d69c90a5265cea1238e03d2cb986ef8641d691dda97f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rx0g4dw3Vie47JE23CPxiMefV14MvQlD%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '56369'
+    'REDIRECT_URL' => '/api/v1/book'
+    'REDIRECT_QUERY_STRING' => 'title=%D0%BC%D0%BE%D1%80%D0%B5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'title=%D0%BC%D0%BE%D1%80%D0%B5'
+    'REQUEST_URI' => '/api/v1/book?title=%D0%BC%D0%BE%D1%80%D0%B5'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675010107.4618
+    'REQUEST_TIME' => 1675010107
+]
+2023-01-29 19:37:05 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:37:05 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '74f814cbd7e2166f864d69c90a5265cea1238e03d2cb986ef8641d691dda97f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rx0g4dw3Vie47JE23CPxiMefV14MvQlD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '68e71b9c-b8af-4aff-afae-832ace3cd2c7'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=74f814cbd7e2166f864d69c90a5265cea1238e03d2cb986ef8641d691dda97f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rx0g4dw3Vie47JE23CPxiMefV14MvQlD%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '61880'
+    'REDIRECT_URL' => '/api/v1/books/boobs'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/books/boobs'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675010225.4707
+    'REQUEST_TIME' => 1675010225
+]
+2023-01-29 19:37:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 19:37:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '74f814cbd7e2166f864d69c90a5265cea1238e03d2cb986ef8641d691dda97f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rx0g4dw3Vie47JE23CPxiMefV14MvQlD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '6ebffa0c-6ea0-41d5-820e-abcd48490741'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=74f814cbd7e2166f864d69c90a5265cea1238e03d2cb986ef8641d691dda97f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rx0g4dw3Vie47JE23CPxiMefV14MvQlD%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '61880'
+    'REDIRECT_URL' => '/api/v1/boobs'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/boobs'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675010229.717
+    'REQUEST_TIME' => 1675010229
+]
+2023-01-29 19:39:53 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-29 19:39:53 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8d462d5b211188173db0f465338c4d19c433b71f6c436ee3daddda2448a6307fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u7qAlm3Qxs-osc92rBUZ8qYQf0DKlJ_i\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'b14e504b-c0cb-4303-b928-5cbfbc9f0479'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=8d462d5b211188173db0f465338c4d19c433b71f6c436ee3daddda2448a6307fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u7qAlm3Qxs-osc92rBUZ8qYQf0DKlJ_i%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '61880'
+    'REDIRECT_URL' => '/api/v1/book/boobs'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/boobs'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675010393.1189
+    'REQUEST_TIME' => 1675010393
+]
+2023-01-29 19:40:12 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-29 19:40:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'auth_key' => 'MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8d462d5b211188173db0f465338c4d19c433b71f6c436ee3daddda2448a6307fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u7qAlm3Qxs-osc92rBUZ8qYQf0DKlJ_i\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'fddb1ef7-8cae-42ad-9e7a-19067e3faebe'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=8d462d5b211188173db0f465338c4d19c433b71f6c436ee3daddda2448a6307fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u7qAlm3Qxs-osc92rBUZ8qYQf0DKlJ_i%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '61880'
+    'REDIRECT_URL' => '/api/v1/book/boobs'
+    'REDIRECT_QUERY_STRING' => 'auth_key=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'auth_key=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'REQUEST_URI' => '/api/v1/book/boobs?auth_key=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675010412.025
+    'REQUEST_TIME' => 1675010412
+]
+2023-01-29 19:41:50 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction()
+#2 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2023-01-29 19:41:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'auth_key' => 'MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '057231f04ad30ceeb00c578a26442fbf9b89028bd7f57770767dceec2439351fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KiWTUMSivO-PnZQ4fyNXy8qhh46Moq_M\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'd2b1460b-3afb-42ec-ad62-7e2124e29bd1'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=057231f04ad30ceeb00c578a26442fbf9b89028bd7f57770767dceec2439351fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KiWTUMSivO-PnZQ4fyNXy8qhh46Moq_M%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '61880'
+    'REDIRECT_URL' => '/api/v1/book/boobs'
+    'REDIRECT_QUERY_STRING' => 'auth_key=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'auth_key=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'REQUEST_URI' => '/api/v1/book/boobs?auth_key=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675010510.8099
+    'REQUEST_TIME' => 1675010510
+]
+2023-01-29 19:41:59 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(59): yii\filters\auth\AuthMethod->beforeAction()
+#2 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#5 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#6 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#7 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#8 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2023-01-29 19:41:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'token' => 'MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '057231f04ad30ceeb00c578a26442fbf9b89028bd7f57770767dceec2439351fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KiWTUMSivO-PnZQ4fyNXy8qhh46Moq_M\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'a0541eb0-b2ff-4f64-9dfd-70f99b690fb1'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=057231f04ad30ceeb00c578a26442fbf9b89028bd7f57770767dceec2439351fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KiWTUMSivO-PnZQ4fyNXy8qhh46Moq_M%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '61880'
+    'REDIRECT_URL' => '/api/v1/book/boobs'
+    'REDIRECT_QUERY_STRING' => 'token=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'token=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'REQUEST_URI' => '/api/v1/book/boobs?token=MUxcipjqhbReHRoPKGOiUDRJegJjA5ISGvVCabVaicmIgBBb9ISA3CMZKTq0'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675010519.8122
+    'REQUEST_TIME' => 1675010519
+]
+2023-01-29 20:07:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: api/v1/book/authorize in C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-01-29 20:07:41 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'name' => 'Кирилл'
+    'middle_name' => 'Панькин'
+    'last_name' => 'Юрьевич'
+    'login' => 'Kirill'
+    'password' => 'GhI89ZZ0'
+    'position_id' => '2'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff2e6047da0d08f8682ac7e86bd2488abfa76f9133e2300c451290b55871918da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Br9RHkut-F0_piw_Avie6JbxQTjfWBB3\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '95f3fdbf-c892-4fcc-82e5-3f229220003c'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------632159412426205733077789'
+    'HTTP_COOKIE' => '_csrf=ff2e6047da0d08f8682ac7e86bd2488abfa76f9133e2300c451290b55871918da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Br9RHkut-F0_piw_Avie6JbxQTjfWBB3%22%3B%7D'
+    'CONTENT_LENGTH' => '753'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '60763'
+    'REDIRECT_URL' => '/api/v1/book'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675012061.7981
+    'REQUEST_TIME' => 1675012061
+]
+2023-01-29 20:13:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 20:13:03 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'c96a817f0bb926fc44973fa993b00e1b6aa2fa3b763794e66b330f3a2d31ffd6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0wL4xAXor2N-vYwn9RBAS5-FZLYW8bIV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '49de6b84-8db9-48f2-8cec-74c25ba0b044'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=c96a817f0bb926fc44973fa993b00e1b6aa2fa3b763794e66b330f3a2d31ffd6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220wL4xAXor2N-vYwn9RBAS5-FZLYW8bIV%22%3B%7D'
+    'HTTP_REFERER' => 'http://library/test'
+    'HTTP_HOST' => 'library'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '57043'
+    'REDIRECT_URL' => '/test/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675012383.9209
+    'REQUEST_TIME' => 1675012383
+]
+2023-01-29 20:13:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 20:13:07 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'c96a817f0bb926fc44973fa993b00e1b6aa2fa3b763794e66b330f3a2d31ffd6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0wL4xAXor2N-vYwn9RBAS5-FZLYW8bIV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'b8187480-71e2-4b96-bf8d-cc52c56ce76e'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=c96a817f0bb926fc44973fa993b00e1b6aa2fa3b763794e66b330f3a2d31ffd6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220wL4xAXor2N-vYwn9RBAS5-FZLYW8bIV%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '57043'
+    'REDIRECT_URL' => '/test/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675012387.8152
+    'REQUEST_TIME' => 1675012387
+]
+2023-01-29 20:13:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 20:13:35 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'c96a817f0bb926fc44973fa993b00e1b6aa2fa3b763794e66b330f3a2d31ffd6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0wL4xAXor2N-vYwn9RBAS5-FZLYW8bIV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '2bfa0695-b6ef-4ba0-9c3d-ee91833d8af0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=c96a817f0bb926fc44973fa993b00e1b6aa2fa3b763794e66b330f3a2d31ffd6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220wL4xAXor2N-vYwn9RBAS5-FZLYW8bIV%22%3B%7D'
+    'HTTP_REFERER' => 'http://library/test'
+    'HTTP_HOST' => 'library'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '57043'
+    'REDIRECT_URL' => '/test/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675012415.2918
+    'REQUEST_TIME' => 1675012415
+]
+2023-01-29 20:13:46 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 C:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 C:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-29 20:13:46 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'c96a817f0bb926fc44973fa993b00e1b6aa2fa3b763794e66b330f3a2d31ffd6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0wL4xAXor2N-vYwn9RBAS5-FZLYW8bIV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '205cb225-399d-458b-b306-1640d2a302bd'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=c96a817f0bb926fc44973fa993b00e1b6aa2fa3b763794e66b330f3a2d31ffd6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220wL4xAXor2N-vYwn9RBAS5-FZLYW8bIV%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.1\\ext;c:\\openserver\\modules\\php\\PHP_8.1\\pear;c:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.1;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;c:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;c:\\openserver\\modules\\database\\MongoDB-5.0-Win10;c:\\openserver\\modules\\redis\\Redis-5.0;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Users\\Кирилл\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Кирилл\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Кирилл\\AppData\\Roaming\\npm;C:\\Users\\Кирилл\\.dotnet\\tools;C:\\OpenServer\\modules\\php\\PHP_8.0'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '57043'
+    'REDIRECT_URL' => '/test/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675012426.645
+    'REQUEST_TIME' => 1675012426
+]

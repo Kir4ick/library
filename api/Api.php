@@ -53,7 +53,6 @@ class Api extends \yii\base\Module implements BootstrapInterface
                 'POST register-worker' => 'register-worker',
                 'POST create' => 'create-book',
                 'GET ' => 'index-books',
-                'GET boobs' => 'index-test',
             ]
         ],
 
