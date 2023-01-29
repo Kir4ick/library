@@ -3,6 +3,7 @@
 namespace app\src\models;
 
 use app\src\filters\BookSearch;
+use app\src\traits\Filterable;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\db\Expression;
@@ -23,7 +24,6 @@ class Book extends \yii\db\ActiveRecord
     {
         return 'book';
     }
-
 
     public function behaviors()
     {
