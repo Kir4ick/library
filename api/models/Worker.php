@@ -43,6 +43,20 @@ class Worker extends \yii\db\ActiveRecord implements IdentityInterface
         ];
     }
 
+    public function isAdmin(){
+        if($this->position->name == 'Администратор'){
+            return true;
+        }
+        return false;
+    }
+
+    public function isWorker(){
+        if($this->position->name == 'Рабочий'){
+            return true;
+        }
+        return false;
+    }
+
     public function setLogin(string $login): self
     {
         $this->login = $login;
@@ -79,11 +93,11 @@ class Worker extends \yii\db\ActiveRecord implements IdentityInterface
         return $this;
     }
 
-    /**
-     * Gets query for [[Position]].
-     *
-     * @return \yii\db\ActiveQuery
-     */
+    public function validatePassword($password)
+    {
+        return Yii::$app->security->validatePassword($password, $this->password_hash);
+    }
+
     public function getPosition()
     {
         return $this->hasOne(Position::class, ['id' => 'position_id']);
@@ -118,11 +132,21 @@ class Worker extends \yii\db\ActiveRecord implements IdentityInterface
 
     public function validateAuthKey($authKey)
     {
-        
+
     }
 
     public function removeAuthKey(){
         $this->auth_key = null;
         $this->save();
+    }
+
+    public function fields()
+    {
+        $fileds = parent::fields();
+        unset($fileds['password_hash'], $fileds['position_id'], $fileds['auth_key']);
+        $fileds['position'] = function (){
+            return $this->position->name;
+        };
+        return $fileds;
     }
 }

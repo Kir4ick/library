@@ -3,20 +3,43 @@
 namespace app\api\v1\controllers;
 
 use app\api\controllers\BaseApiController;
-use app\api\models\Client;
 use app\api\v1\requests\register\RegisterClientRequest;
 use app\api\v1\requests\register\RegisterWorkerRequest;
 use app\api\v1\services\RegisterSerivce;
+use yii\filters\AccessControl;
 
-/**
- * Default controller for the `v1` module
- */
+
 class RegisterController extends BaseApiController
 {
     private array $params;
-    public $modelClass = Client::class;
 
-    protected $noAuthActions = ['register-client', 'register-worker'];
+    public function behaviors()
+    {
+        $behaviors = parent::behaviors();
+        $behaviors['access'] = [
+            'class' => AccessControl::class,
+            'only' => ['register-worker', 'register-client'],
+            'rules' => [
+                [
+                    'allow'        => true,
+                    'actions'      => ['register-worker'],
+                    'roles'        => ['@'],
+                    'matchCallback' => function(){
+                        return \Yii::$app->user->identity->isAdmin();
+                    }
+                ],
+                [
+                    'allow'        => true,
+                    'actions'      => ['register-client'],
+                    'roles'        => ['@'],
+                    'matchCallback' => function(){
+                        return \Yii::$app->user->identity->isWorker();
+                    }
+                ],
+            ]
+        ];
+        return $behaviors;
+    }
 
     public function actions()
     {

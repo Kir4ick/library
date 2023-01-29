@@ -47,6 +47,18 @@ class Api extends \yii\base\Module implements BootstrapInterface
             'controller' => [
                 'api/v1/position',
             ]
+        ],
+        [
+            'class' => 'yii\rest\UrlRule',
+            'pluralize' => false,
+            'controller' => [
+                'api/v1/authorize',
+            ],
+            'extraPatterns' => [
+                'POST authorize' => 'authorize',
+                'GET me' => 'me',
+                'GET logout' => 'logout'
+            ]
         ]
     ]);
 }
