@@ -23,17 +23,6 @@ class BaseApiController extends ActiveController
     {
         $behaviors = parent::behaviors();
 
-        $behaviors['corsFilter'] = [
-            'class' => Cors::class,
-            'cors' => [
-                'Origin' => ['*'],
-                'Access-Control-Request-Method' => ['GET', 'HEAD', 'OPTIONS'],
-                'Access-Control-Request-Headers' => ['*'],
-                'Access-Control-Allow-Credentials' => true,
-                'Access-Control-Max-Age' => 86400,
-                'Access-Control-Expose-Headers' => [],
-            ]
-        ];
         $behaviors['authenticator'] = [
             'class' => HttpBearerAuth::class,
             'optional' => array_merge($this->noAuthActions, ['options']),

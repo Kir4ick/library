@@ -40,6 +40,13 @@ class Api extends \yii\base\Module implements BootstrapInterface
                 'POST register-client' => 'register-client',
                 'POST register-worker' => 'register-worker'
             ]
+        ],
+        [
+            'class' => 'yii\rest\UrlRule',
+            'pluralize' => false,
+            'controller' => [
+                'api/v1/position',
+            ]
         ]
     ]);
 }

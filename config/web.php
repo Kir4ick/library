@@ -9,9 +9,12 @@ $config = [
     'modules' => [
         'frontend' => [
             'class' => \app\frontend\Frontend::class
+        ],
+        'api' => [
+            'class' => \app\api\Api::class
         ]
     ],
-    'bootstrap' => ['log', 'frontend'],
+    'bootstrap' => ['log', 'frontend', 'api'],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -37,9 +40,6 @@ $config = [
         'user' => [
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
-        ],
-        'errorHandler' => [
-            'errorAction' => 'site/error',
         ],
         'mailer' => [
             'class' => \yii\symfonymailer\Mailer::class,
