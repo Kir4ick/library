@@ -4,17 +4,17 @@ namespace app\api\v1\controllers;
 
 use app\api\controllers\BaseApiActiveController;
 use app\src\filters\BookSearch;
+use app\src\interfaces\BookServiceInterface;
 use app\src\models\Book;
 use app\src\requests\BookCreateRequest;
-use app\src\services\BookService;
 
 class BookController extends BaseApiActiveController
 {
-    protected $noAuthActions = ['index'];
+    protected $noAuthActions = ['index-books'];
 
     public $modelClass = Book::class;
 
-    public function __construct($id, $module, private BookService $bookService, $config = [])
+    public function __construct($id, $module, private BookServiceInterface $bookService, $config = [])
     {
         parent::__construct($id, $module, $config);
     }
@@ -37,5 +37,9 @@ class BookController extends BaseApiActiveController
     public function actionIndexBooks(){
         $books = Book::find();
         return (new BookSearch($_GET))->apply($books)->all();
+    }
+
+    public function actionIndexTest(){
+        return ['asdasdads'];
     }
 }

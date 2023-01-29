@@ -3,9 +3,9 @@
 namespace app\api\v1\controllers;
 
 use app\api\controllers\BaseApiController;
+use app\src\interfaces\RegisterServiceInterface;
 use app\src\requests\register\RegisterClientRequest;
 use app\src\requests\register\RegisterWorkerRequest;
-use app\src\services\RegisterSerivce;
 use yii\filters\AccessControl;
 
 
@@ -48,7 +48,7 @@ class RegisterController extends BaseApiController
         return $actions;
     }
 
-    public function __construct($id, $module, private RegisterSerivce $registerService,$config = [])
+    public function __construct($id, $module, private RegisterServiceInterface $registerService,$config = [])
     {
         parent::__construct($id, $module, $config);
         $this->params = \Yii::$app->request->bodyParams;

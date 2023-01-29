@@ -2,6 +2,10 @@
 
 namespace app\api;
 
+use app\src\interfaces\BookServiceInterface;
+use app\src\interfaces\RegisterServiceInterface;
+use app\src\services\BookService;
+use app\src\services\RegisterSerivce;
 use yii\base\BootstrapInterface;
 
 /**
@@ -14,17 +18,22 @@ class Api extends \yii\base\Module implements BootstrapInterface
      */
     public $controllerNamespace = 'app\api\controllers';
 
+
+    private function setDependency(){
+        \Yii::$container->set(BookServiceInterface::class, BookService::class);
+        \Yii::$container->set(RegisterServiceInterface::class, RegisterSerivce::class);
+    }
     /**
      * {@inheritdoc}
      */
     public function init(){
-        parent::init();
-
+        $this->setDependency();
+        \Yii::$app->user->enableSession = false;
         $this->modules = [
             'v1' => 'app\api\v1\V1'
         ];
 
-        \Yii::$app->user->enableSession = false;
+        parent::init();
     }
 
     public function bootstrap($app)
@@ -44,6 +53,7 @@ class Api extends \yii\base\Module implements BootstrapInterface
                 'POST register-worker' => 'register-worker',
                 'POST create' => 'create-book',
                 'GET ' => 'index-books',
+                'GET boobs' => 'index-test',
             ]
         ],
 

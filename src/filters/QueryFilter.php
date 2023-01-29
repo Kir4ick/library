@@ -18,10 +18,10 @@ abstract class QueryFilter
     public function apply(ActiveQuery $q){
         foreach ($this->getCallbacks() as $name => $callback){
             if(isset($this->params[$name])){
-
-               return call_user_func_array($callback,[$q, $this->params[$name]]);
+                call_user_func_array($callback,[$q, $this->params[$name]]);
             }
         }
+        return $q;
     }
 
 }
