@@ -52,7 +52,6 @@ class Api extends \yii\base\Module implements BootstrapInterface
             ],
             'extraPatterns' => [
                 'POST create' => 'create-book',
-                'GET ' => 'index-books',
             ]
         ],
         [
@@ -85,8 +84,7 @@ class Api extends \yii\base\Module implements BootstrapInterface
                 'api/v1/taken',
             ],
             'extraPatterns' => [
-                'GET ' => 'create',
-                'POST worker' => 'register-worker',
+                'POST ' => 'create',
             ]
         ],
     ]);

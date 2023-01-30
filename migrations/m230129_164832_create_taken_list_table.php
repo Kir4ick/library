@@ -20,7 +20,7 @@ class m230129_164832_create_taken_list_table extends Migration
             'book_id' => $this->integer()->notNull(),
             'worker_id' => $this->integer()->notNull(),
             'client_id' => $this->integer()->notNull(),
-            'time_returned' => $this->dateTime()
+            'time' => $this->integer()
         ]);
 
         $this->createIndex(

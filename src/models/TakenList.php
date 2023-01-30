@@ -14,7 +14,7 @@ use yii\db\Expression;
  * @property int $book_id
  * @property int $worker_id
  * @property int $client_id
- * @property string $time_returned
+ * @property int $time
  *
  * @property Book $book
  * @property Client $client
@@ -83,9 +83,9 @@ class TakenList extends \yii\db\ActiveRecord
     /**
      * @param string $time_returned
      */
-    public function setTimeReturned(string $days): self
+    public function setTimeReturned(int $days): self
     {
-        $this->time_returned = new Expression("NOW() + $days");
+        $this->time = $days;
         return $this;
     }
 

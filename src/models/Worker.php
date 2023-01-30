@@ -51,7 +51,7 @@ class Worker extends \yii\db\ActiveRecord implements IdentityInterface
     }
 
     public function isWorker(){
-        if($this->position->name == 'Рабочий'){
+        if($this->position->name == 'Работник'){
             return true;
         }
         return false;

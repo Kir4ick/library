@@ -14,19 +14,13 @@ class TakenController extends BaseApiController
         parent::__construct($id, $module, $config);
     }
 
-    protected $noAuthActions = ['create'];
-
     public function actionCreate(){
-        /**
+
         $request = $this->validate(new TakenBookCreateRequest(), \Yii::$app->request->bodyParams);
         if(is_array($request)){
             return $request;
         }
-         */
-        $taken = (new TakenList())->setDateTaken()->setTimeReturned(7)->setBookId(1)
-            ->setClientId(1)->setWorkerId(3);
-        $taken->save();
-        return $taken;
+        return $this->takenService->createTaken($request);
     }
 
     public function actionIndex(){

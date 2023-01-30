@@ -11,7 +11,7 @@ use yii\data\Pagination;
 
 class BookController extends BaseApiActiveController
 {
-    protected $noAuthActions = ['index-books'];
+    protected $noAuthActions = ['index'];
 
     public $modelClass = Book::class;
 
@@ -23,7 +23,7 @@ class BookController extends BaseApiActiveController
     public function actions()
     {
         $actions = parent::actions();
-        unset($actions['create'], $actions['index']);
+        unset($actions['create']);
         return $actions;
     }
 
@@ -35,10 +35,6 @@ class BookController extends BaseApiActiveController
         return $this->bookService->createBook($request);
     }
 
-    public function actionIndexBooks(){
-        $books = Book::find();
-        $books = (new BookSearch($_GET))->apply($books);
-        return $books->all();
-    }
+
 
 }

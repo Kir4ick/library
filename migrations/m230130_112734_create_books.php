@@ -14,23 +14,23 @@ class m230130_112734_create_books extends Migration
     {
 
         $faker = \Faker\Factory::create();
-        for ($i = 0; $i < 20; $i++){
+        for ($i = 0; $i < 40; $i++){
             $author = new \app\src\models\Author();
             $author->name = $faker->name();
             $author->save(false);
         }
 
-        for ($i = 0; $i < 20; $i++){
+        for ($i = 0; $i < 40; $i++){
             $book = new \app\src\models\Book();
             $book = $book->setArticle(Yii::$app->security->generateRandomString(30))
                 ->setTitle($faker->text(10))->setDateReceipt()->setStatus((bool)rand(0,1));
             $book->save(false);
         }
 
-        for ($i = 0; $i < 20; $i++){
+        for ($i = 0; $i < 40; $i++){
             $this->insert('book_author', [
-               'book_id' => rand(1,20),
-                'author_id' => rand(1,20)
+               'book_id' => rand(1,40),
+                'author_id' => rand(1,40)
             ]);
         }
 
