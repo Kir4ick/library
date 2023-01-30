@@ -36,16 +36,6 @@ class Book extends \yii\db\ActiveRecord
         ];
     }
 
-    public function behaviors()
-    {
-        return [
-            [
-                'class' => TimestampBehavior::class,
-                'value' => date('Y-m-d H:i:s'),
-            ],
-        ];
-    }
-
     public function setTitle(?string $title): self
     {
         $this->title = $title;
@@ -64,8 +54,8 @@ class Book extends \yii\db\ActiveRecord
         return $this;
     }
 
-    public function setStatus(){
-        $this->status = true;
+    public function setStatus(bool $status){
+        $this->status = $status;
         return $this;
     }
 

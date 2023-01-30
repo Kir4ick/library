@@ -8,10 +8,14 @@ use yii\db\ActiveQuery;
 class BookSearch extends QueryFilter
 {
     const TITLE = 'title';
-    const ACTIVE = 'active';
+    const STATUS = 'status';
 
     public function title(ActiveQuery $q, $value){
        $q->where(['like', 'title', $value.'%', false]);
+    }
+
+    public function status(ActiveQuery $q, $value){
+        $q->where(['status' => $value]);
     }
 
     protected function getCallbacks()
@@ -19,6 +23,9 @@ class BookSearch extends QueryFilter
         return [
             self::TITLE => [
                 $this, 'title'
+            ],
+            self::STATUS => [
+                $this, 'status'
             ]
         ];
     }

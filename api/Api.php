@@ -5,8 +5,10 @@ namespace app\api;
 use app\api\v1\V1;
 use app\src\interfaces\BookServiceInterface;
 use app\src\interfaces\RegisterServiceInterface;
+use app\src\interfaces\TakenServiceInterface;
 use app\src\services\BookService;
 use app\src\services\RegisterSerivce;
+use app\src\services\TakenService;
 use yii\base\BootstrapInterface;
 
 /**
@@ -23,6 +25,7 @@ class Api extends \yii\base\Module implements BootstrapInterface
     private function setDependency(){
         \Yii::$container->set(BookServiceInterface::class, BookService::class);
         \Yii::$container->set(RegisterServiceInterface::class, RegisterSerivce::class);
+        \Yii::$container->set(TakenServiceInterface::class, TakenService::class);
     }
     /**
      * {@inheritdoc}
@@ -45,19 +48,47 @@ class Api extends \yii\base\Module implements BootstrapInterface
             'class' => 'yii\rest\UrlRule',
             'pluralize' => false,
             'controller' => [
-                'api/v1/position', 'api/v1/author', 'api/v1/authorize', 'api/v1/register', 'api/v1/book',
+                'api/v1/position', 'api/v1/author', 'api/v1/book',
+            ],
+            'extraPatterns' => [
+                'POST create' => 'create-book',
+                'GET ' => 'index-books',
+            ]
+        ],
+        [
+            'class' => 'yii\rest\UrlRule',
+            'pluralize' => false,
+            'controller' => [
+                'api/v1/authorize',
             ],
             'extraPatterns' => [
                 'POST ' => 'authorize',
                 'GET me' => 'me',
                 'GET logout' => 'logout',
-                'POST register-client' => 'register-client',
-                'POST register-worker' => 'register-worker',
-                'POST create' => 'create-book',
-                'GET ' => 'index-books',
             ]
         ],
-
+        [
+            'class' => 'yii\rest\UrlRule',
+            'pluralize' => false,
+            'controller' => [
+                'api/v1/register',
+            ],
+            'extraPatterns' => [
+                'POST client' => 'register-client',
+                'POST worker' => 'register-worker',
+            ]
+        ],
+        [
+            'class' => 'yii\rest\UrlRule',
+            'pluralize' => false,
+            'controller' => [
+                'api/v1/taken',
+            ],
+            'extraPatterns' => [
+                'GET ' => 'create',
+                'POST worker' => 'register-worker',
+            ]
+        ],
     ]);
     }
 }

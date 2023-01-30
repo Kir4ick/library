@@ -4,6 +4,7 @@ namespace app\src\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
+use yii\db\Expression;
 
 /**
  * This is the model class for table "taken_list".
@@ -36,23 +37,56 @@ class TakenList extends \yii\db\ActiveRecord
     {
         return [
             [['date_taken'], 'safe'],
-            [['book_id', 'worker_id', 'client_id', 'time'], 'required'],
+            [['book_id', 'worker_id', 'client_id'], 'required'],
             [['book_id', 'worker_id', 'client_id'], 'integer'],
-            [['time'], 'string', 'max' => 255],
-            [['book_id'], 'exist', 'skipOnError' => true, 'targetClass' => Book::class, 'targetAttribute' => ['book_id' => 'id']],
-            [['client_id'], 'exist', 'skipOnError' => true, 'targetClass' => Client::class, 'targetAttribute' => ['client_id' => 'id']],
-            [['worker_id'], 'exist', 'skipOnError' => true, 'targetClass' => Worker::class, 'targetAttribute' => ['worker_id' => 'id']],
-        ];
+            ];
     }
 
-    public function behaviors()
+
+
+    /**
+     * @param string|null $date_taken
+     */
+    public function setDateTaken(): self
     {
-        return [
-            [
-                'class' => TimestampBehavior::class,
-                'value' => date('Y-m-d H:i:s'),
-            ],
-        ];
+        $this->date_taken = new Expression('NOW()');
+        return $this;
+    }
+
+    /**
+     * @param int $book_id
+     */
+    public function setBookId(int $book_id): self
+    {
+        $this->book_id = $book_id;
+        return $this;
+    }
+
+    /**
+     * @param int $worker_id
+     */
+    public function setWorkerId(int $worker_id): self
+    {
+        $this->worker_id = $worker_id;
+        return $this;
+    }
+
+    /**
+     * @param int $client_id
+     */
+    public function setClientId(int $client_id): self
+    {
+        $this->client_id = $client_id;
+        return $this;
+    }
+
+    /**
+     * @param string $time_returned
+     */
+    public function setTimeReturned(string $days): self
+    {
+        $this->time_returned = new Expression("NOW() + $days");
+        return $this;
     }
 
     /**

@@ -38,8 +38,6 @@ class BookController extends BaseApiActiveController
     public function actionIndexBooks(){
         $books = Book::find();
         $books = (new BookSearch($_GET))->apply($books);
-        $pagination = new Pagination(['totalCount' => $books->count(), 'pageSize' => 10]);
-        $books = $books->offset($pagination->offset)->limit($pagination->limit);
         return $books->all();
     }
 
