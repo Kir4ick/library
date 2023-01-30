@@ -11,11 +11,11 @@ class BookSearch extends QueryFilter
     const STATUS = 'status';
 
     public function title(ActiveQuery $q, $value){
-       $q->where(['like', 'title', $value.'%', false]);
+       $q->andWhere(['like', 'title', $value.'%', false]);
     }
 
     public function status(ActiveQuery $q, $value){
-        $q->where(['status' => $value]);
+        $q->andWhere(['status' => $value]);
     }
 
     protected function getCallbacks()

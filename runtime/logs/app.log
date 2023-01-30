@@ -6494,3 +6494,187 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1675080108.2025
     'REQUEST_TIME' => 1675080108
 ]
+2023-01-30 15:12:16 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type boolean: "" in D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Query.php(249): yii\db\Command->queryAll()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#5 D:\OpenServer\domains\library\api\v1\controllers\BookController.php(41): yii\db\ActiveQuery->all()
+#6 [internal function]: app\api\v1\controllers\BookController->actionIndexBooks()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type boolean: ""
+The SQL being executed was: SELECT * FROM "book" WHERE "status"='' in D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Query.php(249): yii\db\Command->queryAll()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#5 D:\OpenServer\domains\library\api\v1\controllers\BookController.php(41): yii\db\ActiveQuery->all()
+#6 [internal function]: app\api\v1\controllers\BookController->actionIndexBooks()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 22P02
+    [1] => 7
+    [2] => ERROR:  invalid input syntax for type boolean: ""
+)
+
+2023-01-30 15:12:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'expand' => 'authors'
+    'title' => 'Qui'
+    'status' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '8bcb2e10-dca1-4c67-bb2d-ef3c3cfea75c'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '58479'
+    'REDIRECT_URL' => '/api/v1/book'
+    'REDIRECT_QUERY_STRING' => 'expand=authors&title=Qui&status'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'expand=authors&title=Qui&status'
+    'REQUEST_URI' => '/api/v1/book?expand=authors&title=Qui&status'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675080736.4685
+    'REQUEST_TIME' => 1675080736
+]
+2023-01-30 15:12:28 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type boolean: "flase" in D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Query.php(249): yii\db\Command->queryAll()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#5 D:\OpenServer\domains\library\api\v1\controllers\BookController.php(41): yii\db\ActiveQuery->all()
+#6 [internal function]: app\api\v1\controllers\BookController->actionIndexBooks()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type boolean: "flase"
+The SQL being executed was: SELECT * FROM "book" WHERE "status"='flase' in D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\Query.php(249): yii\db\Command->queryAll()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#5 D:\OpenServer\domains\library\api\v1\controllers\BookController.php(41): yii\db\ActiveQuery->all()
+#6 [internal function]: app\api\v1\controllers\BookController->actionIndexBooks()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 22P02
+    [1] => 7
+    [2] => ERROR:  invalid input syntax for type boolean: "flase"
+)
+
+2023-01-30 15:12:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'expand' => 'authors'
+    'title' => 'Qui'
+    'status' => 'flase'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '460f9255-b983-4e6c-982b-7965ad97e96f'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '52784'
+    'REDIRECT_URL' => '/api/v1/book'
+    'REDIRECT_QUERY_STRING' => 'expand=authors&title=Qui&status=flase'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'expand=authors&title=Qui&status=flase'
+    'REQUEST_URI' => '/api/v1/book?expand=authors&title=Qui&status=flase'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675080748.3922
+    'REQUEST_TIME' => 1675080748
+]
