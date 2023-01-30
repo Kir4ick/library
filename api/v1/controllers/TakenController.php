@@ -20,6 +20,7 @@ class TakenController extends BaseApiActiveController
     {
         $actions = parent::actions();
         unset($actions['create']);
+        return $actions;
     }
 
     public function actionCreate(){

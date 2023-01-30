@@ -18,6 +18,7 @@ class ReturnedController extends \app\api\controllers\BaseApiActiveController
     {
         $actions = parent::actions();
         unset($actions['create']);
+        return $actions;
     }
 
     public $modelClass = ReturnedList::class;
