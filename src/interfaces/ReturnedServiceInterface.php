@@ -6,9 +6,5 @@ use yii\base\Model;
 
 interface ReturnedServiceInterface
 {
-    /**
-     * @param Model $request
-     * @return mixed
-     */
-    public function createReturned(Model $request);
+    public function createReturned(Model $request):Model|array;
 }

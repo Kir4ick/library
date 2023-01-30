@@ -13,9 +13,10 @@ abstract class QueryFilter
         $this->params = $params;
     }
 
-    abstract protected function getCallbacks();
+    abstract protected function getCallbacks():array;
 
-    public function apply(ActiveQuery $q){
+    final public function apply(ActiveQuery $q):ActiveQuery
+    {
         foreach ($this->getCallbacks() as $name => $callback){
             if(isset($this->params[$name])){
                 call_user_func_array($callback,[$q, $this->params[$name]]);

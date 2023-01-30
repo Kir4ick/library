@@ -2,17 +2,19 @@
 
 namespace app\api\v1\controllers;
 
-use app\api\controllers\BaseApiController;
+use app\api\controllers\BaseApiActiveController;
 use app\src\interfaces\TakenServiceInterface;
 use app\src\models\TakenList;
 use app\src\requests\TakenBookCreateRequest;
 
-class TakenController extends BaseApiController
+class TakenController extends BaseApiActiveController
 {
     public function __construct($id, $module,private TakenServiceInterface $takenService,$config = [])
     {
         parent::__construct($id, $module, $config);
     }
+
+    public $modelClass = TakenList::class;
 
     public function actionCreate(){
 
@@ -23,7 +25,4 @@ class TakenController extends BaseApiController
         return $this->takenService->createTaken($request);
     }
 
-    public function actionIndex(){
-
-    }
 }

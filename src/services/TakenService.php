@@ -22,7 +22,7 @@ class TakenService implements TakenServiceInterface
     {
         $takenItem = new TakenList();
         $transaction = ActiveRecord::getDb()->beginTransaction();
-        $book = Book::findOne(['id' => $request->book_id]);
+        $book = Book::findOne(['title' => $request->book_name]);
 
         if($book->status == false){
             return ['message' => 'Книга уже отдана'];
@@ -34,7 +34,7 @@ class TakenService implements TakenServiceInterface
             //Но в валидации уже есть такая проверка
 
             $worker_id = \Yii::$app->user->identity->getId();
-            $client_id = Client::findOne(['id' => $request->client_id])->id;
+            $client_id = Client::findOne(['middle_name' => $request->client_middle_name])->id;
             $takenItem = $takenItem->setWorkerId($worker_id)->setClientId($client_id)->setBookId($book->id)
                 ->setDateTaken()->setTimeReturned($request->days);
             $takenItem->save();

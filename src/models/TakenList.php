@@ -118,4 +118,14 @@ class TakenList extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Worker::class, ['id' => 'worker_id']);
     }
+
+    public function fields()
+    {
+        $fields = parent::fields();
+        unset($fields['worker_id'], $fields['client_id'], $fields['book_id']);
+        $fields['worker'] = $this->worker;
+        $fields['client'] = $this->client;
+        $fields['book'] = $this->book;
+        return $fields;
+    }
 }

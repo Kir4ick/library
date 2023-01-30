@@ -4,6 +4,7 @@ namespace app\src\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
+use yii\db\Expression;
 
 /**
  * This is the model class for table "returned_list".
@@ -44,20 +45,16 @@ class ReturnedList extends \yii\db\ActiveRecord
         ];
     }
 
-    public function behaviors()
-    {
-        return [
-            [
-                'class' => TimestampBehavior::class,
-                'value' => date('Y-m-d H:i:s'),
-            ],
-        ];
-    }
 
 
     public function setDateReturned(?string $date_returned): self
     {
-        $this->date_returned = $date_returned;
+        if($date_returned === null){
+            $this->date_returned = (new Expression('NOW()'))->expression;
+        }else{
+            $this->date_returned = $date_returned;
+        }
+
         return $this;
     }
 
@@ -113,5 +110,21 @@ class ReturnedList extends \yii\db\ActiveRecord
     public function getWorker()
     {
         return $this->hasOne(Worker::class, ['id' => 'worker_id']);
+    }
+
+    public function fields()
+    {
+        $fields = parent::fields();
+        unset($fields['worker_id'], $fields['client_id'], $fields['book_id']);
+        $fields['worker'] = function (){
+            return $this->worker;
+        };
+        $fields['client'] = function (){
+            return $this->client;
+        };
+        $fields['book'] = function (){
+            return $this->book;
+        };
+        return $fields;
     }
 }

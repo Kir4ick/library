@@ -18,6 +18,7 @@ class BaseApiActiveController extends ActiveController
     public function behaviors()
     {
         $behaviors = parent::behaviors();
+
         $behaviors['authenticator'] = [
             'class' => HttpBearerAuth::class,
             'optional' => array_merge($this->noAuthActions, ['options']),
@@ -25,6 +26,7 @@ class BaseApiActiveController extends ActiveController
 
         return $behaviors;
     }
+
 
     protected function validate(Model $model, array $params): Model|array
     {

@@ -6,9 +6,6 @@ use yii\base\Model;
 use yii\filters\auth\HttpBearerAuth;
 use yii\rest\Controller;
 
-/**
- * Default controller for the `api` module
- */
 class BaseApiController extends Controller
 {
     protected $noAuthActions = [];

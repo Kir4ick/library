@@ -9,18 +9,16 @@ use yii\base\Model;
 
 class TakenBookCreateRequest extends Model
 {
-    public $book_id;
-    public $worker_id;
-    public $client_id;
+    public $book_name;
+    public $client_middle_name;
     public $days;
 
     public function rules()
     {
         return [
-            [['book_id', 'client_id', 'worker_id', 'days'], 'required'],
-            [['book_id'], 'exist', 'skipOnError' => true, 'targetClass' => Book::class, 'targetAttribute' => ['book_id' => 'id']],
-            [['client_id'], 'exist', 'skipOnError' => true, 'targetClass' => Client::class, 'targetAttribute' => ['client_id' => 'id']],
-            [['worker_id'], 'exist', 'skipOnError' => true, 'targetClass' => Worker::class, 'targetAttribute' => ['worker_id' => 'id']],
+            [['book_name', 'client_middle_name', 'days'], 'required'],
+            [['book_name'], 'exist', 'skipOnError' => true, 'targetClass' => Book::class, 'targetAttribute' => ['book_name' => 'title']],
+            [['client_middle_name'], 'exist', 'skipOnError' => true, 'targetClass' => Client::class, 'targetAttribute' => ['client_middle_name' => 'middle_name']],
             ['days', 'integer']
         ];
     }

@@ -18,7 +18,7 @@ class BookSearch extends QueryFilter
         $q->andWhere(['status' => $value]);
     }
 
-    protected function getCallbacks()
+    protected function getCallbacks():array
     {
         return [
             self::TITLE => [
