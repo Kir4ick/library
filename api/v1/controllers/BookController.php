@@ -34,7 +34,4 @@ class BookController extends BaseApiActiveController
         }
         return $this->bookService->createBook($request);
     }
-
-
-
 }

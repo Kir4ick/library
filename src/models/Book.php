@@ -71,6 +71,18 @@ class Book extends \yii\db\ActiveRecord
         );
     }
 
+    public function fields()
+    {
+        $fields = parent::fields();
+        $fields['date_receipt'] = function (){
+          return  Yii::$app->formatter->asDatetime($this->date_receipt, 'd M Y');
+        };
+        $fields['authors'] = function (){
+          return $this->authors;
+        };
+        return $fields;
+    }
+
     public function extraFields()
     {
         return [

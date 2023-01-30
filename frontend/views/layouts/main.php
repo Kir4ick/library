@@ -22,16 +22,30 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body class="d-flex flex-column h-100">
+<body class="bg-gray-200">
 <?php $this->beginBody() ?>
 
-<header id="header">
+<header class="h-20 border-b-[1px] px-12  bg-white drop-shadow-sm">
+    <div class="container flex items-center justify-between h-full relative">
+        <div class="main-header flex items-end">
+            <a href=""><h1 class="text-2xl font-semibold">MyLibrary</h1></a>
+            <nav class="ml-20 flex gap-5">
+                <a class="hover:text-cyan-800" href="">Главная</a>
+                <a class="hover:text-cyan-800" href="">О нас</a>
+            </nav>
+        </div>
+
+        <div class="login">
+            <a class="" href="">
+                <button class="block rounded-xl w-24 h-10 hover:bg-cyan-500
+                 text-white bg-cyan-800">Войти</button>
+            </a>
+        </div>
+    </div>
 </header>
 
-<main id="main" class="flex-shrink-0" role="main">
-    <div class="container">
-        <?= $content ?>
-    </div>
+<main id="main" class="flex-shrink-0" role="main" style="padding-bottom: 100px">
+    <?= $content ?>
 </main>
 
 <?php $this->endBody() ?>
