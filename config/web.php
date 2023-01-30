@@ -11,10 +11,10 @@ $config = [
             'class' => \app\frontend\Frontend::class
         ],
         'api' => [
-            'class' => \app\api\Api::class
-        ]
+            'class' => \app\api\Api::class,
+        ],
     ],
-    'bootstrap' => ['log', 'frontend', 'api'],
+    'bootstrap' => ['log', 'frontend', \app\api\Api::class],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -62,7 +62,6 @@ $config = [
             'showScriptName' => false,
             'enableStrictParsing' => true,
             'rules' => [
-
             ]
         ],
     ],

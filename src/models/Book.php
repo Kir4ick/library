@@ -26,8 +26,6 @@ class Book extends \yii\db\ActiveRecord
         return 'book';
     }
 
-
-
     public function rules()
     {
         return [
@@ -35,6 +33,16 @@ class Book extends \yii\db\ActiveRecord
             [['date_receipt'], 'safe'],
             [['title', 'article'], 'string', 'max' => 255],
             [['article'], 'unique'],
+        ];
+    }
+
+    public function behaviors()
+    {
+        return [
+            [
+                'class' => TimestampBehavior::class,
+                'value' => date('Y-m-d H:i:s'),
+            ],
         ];
     }
 
@@ -52,8 +60,7 @@ class Book extends \yii\db\ActiveRecord
 
     public function setDateReceipt(): self
     {
-        $expression = new Expression('NOW()');
-        $this->date_receipt = $expression;
+        $this->date_receipt =  new Expression('NOW()');;
         return $this;
     }
 

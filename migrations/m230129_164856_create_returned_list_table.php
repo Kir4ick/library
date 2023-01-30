@@ -20,6 +20,51 @@ class m230129_164856_create_returned_list_table extends Migration
             'client_id' => $this->integer()->notNull(),
             'condition' => $this->string()
         ]);
+
+        $this->createIndex(
+            'idx-returned_list-book_id',
+            'returned_list',
+            'book_id'
+        );
+
+        $this->addForeignKey(
+            'fk-returned_list-book_id',
+            'returned_list',
+            'book_id',
+            'book',
+            'id',
+            'CASCADE'
+        );
+
+        $this->createIndex(
+            'idx-returned_list-worker_id',
+            'returned_list',
+            'worker_id'
+        );
+
+        $this->addForeignKey(
+            'fk-returned_list-worker_id',
+            'returned_list',
+            'worker_id',
+            'worker',
+            'id',
+            'CASCADE'
+        );
+
+        $this->createIndex(
+            'idx-returned_list-client_id',
+            'returned_list',
+            'client_id'
+        );
+
+        $this->addForeignKey(
+            'fk-returned_list-client_id',
+            'returned_list',
+            'client_id',
+            'client',
+            'id',
+            'CASCADE'
+        );
     }
 
     /**

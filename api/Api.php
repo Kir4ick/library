@@ -2,6 +2,7 @@
 
 namespace app\api;
 
+use app\api\v1\V1;
 use app\src\interfaces\BookServiceInterface;
 use app\src\interfaces\RegisterServiceInterface;
 use app\src\services\BookService;
@@ -27,13 +28,14 @@ class Api extends \yii\base\Module implements BootstrapInterface
      * {@inheritdoc}
      */
     public function init(){
+        parent::init();
+
         $this->setDependency();
         \Yii::$app->user->enableSession = false;
-        $this->modules = [
-            'v1' => 'app\api\v1\V1'
-        ];
 
-        parent::init();
+        $this->modules = [
+            'v1' => V1::class
+        ];
     }
 
     public function bootstrap($app)
@@ -57,5 +59,5 @@ class Api extends \yii\base\Module implements BootstrapInterface
         ],
 
     ]);
-}
+    }
 }
