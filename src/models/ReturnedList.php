@@ -50,7 +50,7 @@ class ReturnedList extends \yii\db\ActiveRecord
     public function setDateReturned(?string $date_returned): self
     {
         if($date_returned === null){
-            $this->date_returned = (new Expression('NOW()'))->expression;
+            $this->date_returned = date('Y-m-d H:i:s');
         }else{
             $this->date_returned = $date_returned;
         }

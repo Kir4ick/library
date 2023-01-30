@@ -16,6 +16,12 @@ class TakenController extends BaseApiActiveController
 
     public $modelClass = TakenList::class;
 
+    public function actions()
+    {
+        $actions = parent::actions();
+        unset($actions['create']);
+    }
+
     public function actionCreate(){
 
         $request = $this->validate(new TakenBookCreateRequest(), \Yii::$app->request->bodyParams);

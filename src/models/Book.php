@@ -50,7 +50,7 @@ class Book extends \yii\db\ActiveRecord
 
     public function setDateReceipt(): self
     {
-        $this->date_receipt =  new Expression('NOW()');;
+        $this->date_receipt =  date('Y-m-d H:i:s');
         return $this;
     }
 

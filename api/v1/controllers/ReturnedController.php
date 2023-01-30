@@ -14,6 +14,12 @@ class ReturnedController extends \app\api\controllers\BaseApiActiveController
         parent::__construct($id, $module, $config);
     }
 
+    public function actions()
+    {
+        $actions = parent::actions();
+        unset($actions['create']);
+    }
+
     public $modelClass = ReturnedList::class;
 
     public function actionCreate(){

@@ -49,7 +49,7 @@ class TakenList extends \yii\db\ActiveRecord
      */
     public function setDateTaken(): self
     {
-        $this->date_taken = new Expression('NOW()');
+        $this->date_taken = date('Y-m-d H:i:s');
         return $this;
     }
 
@@ -123,9 +123,15 @@ class TakenList extends \yii\db\ActiveRecord
     {
         $fields = parent::fields();
         unset($fields['worker_id'], $fields['client_id'], $fields['book_id']);
-        $fields['worker'] = $this->worker;
-        $fields['client'] = $this->client;
-        $fields['book'] = $this->book;
+        $fields['worker'] = function (){
+            return $this->worker;
+        };
+        $fields['client'] = function (){
+            return $this->client;
+        };
+        $fields['book'] = function (){
+            return $this->book;
+        };
         return $fields;
     }
 }
