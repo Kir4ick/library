@@ -1,0 +1,1621 @@
+a:14:{s:6:"config";s:1743:"a:5:{s:10:"phpVersion";s:5:"8.1.1";s:10:"yiiVersion";s:6:"2.0.47";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.47";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:5:"8.1.1";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:6:{s:18:"yiier/yii2-helpers";a:3:{s:4:"name";s:18:"yiier/yii2-helpers";s:7:"version";s:7:"2.1.1.0";s:5:"alias";a:1:{s:14:"@yiier/helpers";s:59:"D:\OpenServer\domains\library\vendor/yiier/yii2-helpers/src";}}s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:64:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.22.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:59:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:59:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-faker/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:57:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-gii/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:67:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-symfonymailer/src";}}}}";s:3:"log";s:30038:"a:1:{s:8:"messages";a:38:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675150903.164518;i:4;a:0:{}i:5;i:3004328;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675150903.166509;i:4;a:0:{}i:5;i:3180312;}i:2;a:6:{i:0;s:24:"Loading module: frontend";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675150903.166531;i:4;a:0:{}i:5;i:3181120;}i:3;a:6:{i:0;s:49:"Bootstrap with app\frontend\Frontend::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675150903.166771;i:4;a:0:{}i:5;i:3188392;}i:4;a:6:{i:0;s:39:"Bootstrap with app\api\Api::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675150903.171767;i:4;a:0:{}i:5;i:3546792;}i:5;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675150903.172982;i:4;a:0:{}i:5;i:3768208;}i:6;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675150903.183087;i:4;a:0:{}i:5;i:4780968;}i:7;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675150903.183914;i:4;a:0:{}i:5;i:4830896;}i:8;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675150903.18429;i:4;a:0:{}i:5;i:4855728;}i:18;a:6:{i:0;s:42:"Route requested: 'api/v1/book/create-book'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1675150903.187108;i:4;a:0:{}i:5;i:5084248;}i:19;a:6:{i:0;s:19:"Loading module: api";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675150903.187118;i:4;a:0:{}i:5;i:5085880;}i:20;a:6:{i:0;s:18:"Loading module: v1";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675150903.187155;i:4;a:0:{}i:5;i:5087520;}i:21;a:6:{i:0;s:37:"Route to run: api/v1/book/create-book";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1675150903.191836;i:4;a:0:{}i:5;i:5431920;}i:22;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5434;dbname=postgres";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1675150903.20756;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6658376;}i:25;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'worker'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.222277;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6860176;}i:28;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='worker'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.238247;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6900920;}i:31;a:6:{i:0;s:102:"SELECT * FROM "worker" WHERE "auth_key"='xUp3-K4ah9Q8UUW5QF3gWrO6hZx4_-kyU8024ZABtW74tREMvRRuVY9C18MB'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.250632;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:7195720;}i:34;a:6:{i:0;s:55:"User '2' logged in from 127.0.0.1. Session not enabled.";i:1;i:4;i:2;s:19:"yii\web\User::login";i:3;d:1675150903.259606;i:4;a:0:{}i:5;i:7560672;}i:35;a:6:{i:0;s:65:"Rate limit skipped: "user" does not implement RateLimitInterface.";i:1;i:4;i:2;s:37:"yii\filters\RateLimiter::beforeAction";i:3;d:1675150903.259669;i:4;a:0:{}i:5;i:7560480;}i:36;a:6:{i:0;s:73:"Running action: app\api\v1\controllers\BookController::actionCreateBook()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1675150903.259697;i:4;a:0:{}i:5;i:7559328;}i:37;a:6:{i:0;s:17:"Begin transaction";i:1;i:8;i:2;s:25:"yii\db\Transaction::begin";i:3;d:1675150903.261725;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:21;s:8:"function";s:16:"beginTransaction";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7640800;}i:38;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.263849;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7676368;}i:41;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.273365;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7686080;}i:44;a:6:{i:0;s:91:"SELECT EXISTS(SELECT * FROM "book" WHERE "book"."article"='q73Wt1IXYhFf3OLq6OhCR_eKiduHZt')";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.285879;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7771088;}i:47;a:6:{i:0;s:181:"INSERT INTO "book" ("title", "article", "date_receipt", "status") VALUES ('Какая то книга', 'q73Wt1IXYhFf3OLq6OhCR_eKiduHZt', '2023-01-31 10:41:43', TRUE) RETURNING "id"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.292915;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7773616;}i:50;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.312745;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7800480;}i:53;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.32326;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7808832;}i:56;a:6:{i:0;s:50:"SELECT * FROM "author" WHERE "name"='Пушкин'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.330527;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7814584;}i:59;a:6:{i:0;s:68:"INSERT INTO "author" ("name") VALUES ('Пушкин') RETURNING "id"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.335531;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7825824;}i:62;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book_author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.340806;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7835192;}i:65;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book_author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.349766;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7847640;}i:68;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 41)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.356632;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7851680;}i:71;a:6:{i:0;s:56:"SELECT * FROM "author" WHERE "name"='Лермонтов'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.363862;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7855744;}i:74;a:6:{i:0;s:74:"INSERT INTO "author" ("name") VALUES ('Лермонтов') RETURNING "id"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.367904;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7868280;}i:77;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 42)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.371873;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7872064;}i:80;a:6:{i:0;s:18:"Commit transaction";i:1;i:8;i:2;s:26:"yii\db\Transaction::commit";i:3;d:1675150903.375155;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:39;s:8:"function";s:6:"commit";s:5:"class";s:18:"yii\db\Transaction";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7869056;}i:81;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=41";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.389925;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8313488;}i:84;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (41, 42)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.394488;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8315104;}}}";s:9:"profiling";s:52849:"a:3:{s:6:"memory";i:8544864;s:4:"time";d:0.25225377082824707;s:8:"messages";a:40:{i:23;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5434;dbname=postgres";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1675150903.207602;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6659504;}i:24;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5434;dbname=postgres";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1675150903.220731;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6661432;}i:26;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'worker'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.222335;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6861752;}i:27;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'worker'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.235812;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6876992;}i:29;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='worker'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.23829;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6902408;}i:30;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='worker'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.244345;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6904856;}i:32;a:6:{i:0;s:102:"SELECT * FROM "worker" WHERE "auth_key"='xUp3-K4ah9Q8UUW5QF3gWrO6hZx4_-kyU8024ZABtW74tREMvRRuVY9C18MB'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.250672;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:7198328;}i:33;a:6:{i:0;s:102:"SELECT * FROM "worker" WHERE "auth_key"='xUp3-K4ah9Q8UUW5QF3gWrO6hZx4_-kyU8024ZABtW74tREMvRRuVY9C18MB'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.254275;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:7202016;}i:39;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.263939;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7678608;}i:40;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.271685;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7689936;}i:42;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.273407;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7688320;}i:43;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.278704;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7690632;}i:45;a:6:{i:0;s:91:"SELECT EXISTS(SELECT * FROM "book" WHERE "book"."article"='q73Wt1IXYhFf3OLq6OhCR_eKiduHZt')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.285923;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7774088;}i:46;a:6:{i:0;s:91:"SELECT EXISTS(SELECT * FROM "book" WHERE "book"."article"='q73Wt1IXYhFf3OLq6OhCR_eKiduHZt')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.291496;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7775696;}i:48;a:6:{i:0;s:181:"INSERT INTO "book" ("title", "article", "date_receipt", "status") VALUES ('Какая то книга', 'q73Wt1IXYhFf3OLq6OhCR_eKiduHZt', '2023-01-31 10:41:43', TRUE) RETURNING "id"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.292941;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7774104;}i:49;a:6:{i:0;s:181:"INSERT INTO "book" ("title", "article", "date_receipt", "status") VALUES ('Какая то книга', 'q73Wt1IXYhFf3OLq6OhCR_eKiduHZt', '2023-01-31 10:41:43', TRUE) RETURNING "id"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.310359;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7776208;}i:51;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.312792;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7802720;}i:52;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.321636;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7809488;}i:54;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.323307;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7811072;}i:55;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.328539;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7813384;}i:57;a:6:{i:0;s:50:"SELECT * FROM "author" WHERE "name"='Пушкин'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.330583;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7817304;}i:58;a:6:{i:0;s:50:"SELECT * FROM "author" WHERE "name"='Пушкин'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.33415;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7819344;}i:60;a:6:{i:0;s:68:"INSERT INTO "author" ("name") VALUES ('Пушкин') RETURNING "id"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.335553;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7827328;}i:61;a:6:{i:0;s:68:"INSERT INTO "author" ("name") VALUES ('Пушкин') RETURNING "id"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.339354;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7829688;}i:63;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book_author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.340854;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7837056;}i:64;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book_author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.348351;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7843328;}i:66;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book_author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.349811;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7849504;}i:67;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book_author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.355349;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7852880;}i:69;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 41)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.356676;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7854720;}i:70;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 41)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.36242;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7856384;}i:72;a:6:{i:0;s:56:"SELECT * FROM "author" WHERE "name"='Лермонтов'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.363905;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7858464;}i:73;a:6:{i:0;s:56:"SELECT * FROM "author" WHERE "name"='Лермонтов'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.366506;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7860504;}i:75;a:6:{i:0;s:74:"INSERT INTO "author" ("name") VALUES ('Лермонтов') RETURNING "id"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.367929;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7869784;}i:76;a:6:{i:0;s:74:"INSERT INTO "author" ("name") VALUES ('Лермонтов') RETURNING "id"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.370588;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7872144;}i:78;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 42)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.371907;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7875104;}i:79;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 42)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.374116;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7876768;}i:82;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=41";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.389975;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8316096;}i:83;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=41";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.393214;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8318552;}i:85;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (41, 42)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.394527;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8317736;}i:86;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (41, 42)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.398182;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8320344;}}}";s:2:"db";s:52047:"a:1:{s:8:"messages";a:38:{i:26;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'worker'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.222335;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6861752;}i:27;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'worker'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.235812;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6876992;}i:29;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='worker'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.23829;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6902408;}i:30;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='worker'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.244345;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6904856;}i:32;a:6:{i:0;s:102:"SELECT * FROM "worker" WHERE "auth_key"='xUp3-K4ah9Q8UUW5QF3gWrO6hZx4_-kyU8024ZABtW74tREMvRRuVY9C18MB'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.250672;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:7198328;}i:33;a:6:{i:0;s:102:"SELECT * FROM "worker" WHERE "auth_key"='xUp3-K4ah9Q8UUW5QF3gWrO6hZx4_-kyU8024ZABtW74tREMvRRuVY9C18MB'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.254275;i:4;a:1:{i:0;a:5:{s:4:"file";s:51:"D:\OpenServer\domains\library\src\models\Worker.php";s:4:"line";i:113;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:7202016;}i:39;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.263939;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7678608;}i:40;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.271685;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7689936;}i:42;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.273407;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7688320;}i:43;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.278704;i:4;a:3:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:41;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:25;s:8:"function";s:8:"setTitle";s:5:"class";s:19:"app\src\models\Book";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7690632;}i:45;a:6:{i:0;s:91:"SELECT EXISTS(SELECT * FROM "book" WHERE "book"."article"='q73Wt1IXYhFf3OLq6OhCR_eKiduHZt')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.285923;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7774088;}i:46;a:6:{i:0;s:91:"SELECT EXISTS(SELECT * FROM "book" WHERE "book"."article"='q73Wt1IXYhFf3OLq6OhCR_eKiduHZt')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.291496;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7775696;}i:48;a:6:{i:0;s:181:"INSERT INTO "book" ("title", "article", "date_receipt", "status") VALUES ('Какая то книга', 'q73Wt1IXYhFf3OLq6OhCR_eKiduHZt', '2023-01-31 10:41:43', TRUE) RETURNING "id"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.292941;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7774104;}i:49;a:6:{i:0;s:181:"INSERT INTO "book" ("title", "article", "date_receipt", "status") VALUES ('Какая то книга', 'q73Wt1IXYhFf3OLq6OhCR_eKiduHZt', '2023-01-31 10:41:43', TRUE) RETURNING "id"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.310359;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:27;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7776208;}i:51;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.312792;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7802720;}i:52;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.321636;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7809488;}i:54;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.323307;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7811072;}i:55;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.328539;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7813384;}i:57;a:6:{i:0;s:50:"SELECT * FROM "author" WHERE "name"='Пушкин'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.330583;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7817304;}i:58;a:6:{i:0;s:50:"SELECT * FROM "author" WHERE "name"='Пушкин'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.33415;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7819344;}i:60;a:6:{i:0;s:68:"INSERT INTO "author" ("name") VALUES ('Пушкин') RETURNING "id"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.335553;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7827328;}i:61;a:6:{i:0;s:68:"INSERT INTO "author" ("name") VALUES ('Пушкин') RETURNING "id"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.339354;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7829688;}i:63;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book_author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.340854;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7837056;}i:64;a:6:{i:0;s:2817:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book_author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.348351;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7843328;}i:66;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book_author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.349811;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7849504;}i:67;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book_author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.355349;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7852880;}i:69;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 41)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.356676;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7854720;}i:70;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 41)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.36242;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7856384;}i:72;a:6:{i:0;s:56:"SELECT * FROM "author" WHERE "name"='Лермонтов'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.363905;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7858464;}i:73;a:6:{i:0;s:56:"SELECT * FROM "author" WHERE "name"='Лермонтов'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.366506;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:48;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7860504;}i:75;a:6:{i:0;s:74:"INSERT INTO "author" ("name") VALUES ('Лермонтов') RETURNING "id"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.367929;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7869784;}i:76;a:6:{i:0;s:74:"INSERT INTO "author" ("name") VALUES ('Лермонтов') RETURNING "id"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.370588;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:55;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:17:"createOrGetAuthor";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7872144;}i:78;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 42)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.371907;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7875104;}i:79;a:6:{i:0;s:66:"INSERT INTO "book_author" ("book_id", "author_id") VALUES (41, 42)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1675150903.374116;i:4;a:2:{i:0;a:5:{s:4:"file";s:58:"D:\OpenServer\domains\library\src\services\BookService.php";s:4:"line";i:32;s:8:"function";s:4:"link";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"D:\OpenServer\domains\library\api\v1\controllers\BookController.php";s:4:"line";i:35;s:8:"function";s:10:"createBook";s:5:"class";s:28:"app\src\services\BookService";s:4:"type";s:2:"->";}}i:5;i:7876768;}i:82;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=41";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.389975;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8316096;}i:83;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=41";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.393214;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8318552;}i:85;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (41, 42)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.394527;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8317736;}i:86;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (41, 42)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675150903.398182;i:4;a:1:{i:0;a:5:{s:4:"file";s:49:"D:\OpenServer\domains\library\src\models\Book.php";s:4:"line";i:81;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:8320344;}}}";s:5:"event";s:9118:"a:52:{i:0;a:5:{s:4:"time";d:1675150903.186583;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1675150903.192;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1675150903.192013;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:11:"app\api\Api";}i:3;a:5:{s:4:"time";d:1675150903.19202;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\api\v1\V1";}i:4;a:5:{s:4:"time";d:1675150903.202726;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:5;a:5:{s:4:"time";d:1675150903.220717;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:6;a:5:{s:4:"time";d:1675150903.25568;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Worker";}i:7;a:5:{s:4:"time";d:1675150903.255737;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Worker";}i:8;a:5:{s:4:"time";d:1675150903.256029;s:4:"name";s:11:"beforeLogin";s:5:"class";s:17:"yii\web\UserEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\User";}i:9;a:5:{s:4:"time";d:1675150903.259641;s:4:"name";s:10:"afterLogin";s:5:"class";s:17:"yii\web\UserEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\User";}i:10;a:5:{s:4:"time";d:1675150903.259682;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:37:"app\api\v1\controllers\BookController";}i:11;a:5:{s:4:"time";d:1675150903.261135;s:4:"name";s:14:"beforeValidate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"app\src\requests\BookCreateRequest";}i:12;a:5:{s:4:"time";d:1675150903.261233;s:4:"name";s:13:"afterValidate";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"app\src\requests\BookCreateRequest";}i:13;a:5:{s:4:"time";d:1675150903.261752;s:4:"name";s:16:"beginTransaction";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:14;a:5:{s:4:"time";d:1675150903.263722;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:15;a:5:{s:4:"time";d:1675150903.280472;s:4:"name";s:14:"beforeValidate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:16;a:5:{s:4:"time";d:1675150903.284458;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:17;a:5:{s:4:"time";d:1675150903.284621;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:18;a:5:{s:4:"time";d:1675150903.29272;s:4:"name";s:13:"afterValidate";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:19;a:5:{s:4:"time";d:1675150903.292744;s:4:"name";s:12:"beforeInsert";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:20;a:5:{s:4:"time";d:1675150903.312187;s:4:"name";s:11:"afterInsert";s:5:"class";s:21:"yii\db\AfterSaveEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:21;a:5:{s:4:"time";d:1675150903.312644;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:22;a:5:{s:4:"time";d:1675150903.335278;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:23;a:5:{s:4:"time";d:1675150903.335317;s:4:"name";s:14:"beforeValidate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:24;a:5:{s:4:"time";d:1675150903.335427;s:4:"name";s:13:"afterValidate";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:25;a:5:{s:4:"time";d:1675150903.335438;s:4:"name";s:12:"beforeInsert";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:26;a:5:{s:4:"time";d:1675150903.340649;s:4:"name";s:11:"afterInsert";s:5:"class";s:21:"yii\db\AfterSaveEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:27;a:5:{s:4:"time";d:1675150903.34069;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:28;a:5:{s:4:"time";d:1675150903.340704;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:29;a:5:{s:4:"time";d:1675150903.363683;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:30;a:5:{s:4:"time";d:1675150903.367614;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:31;a:5:{s:4:"time";d:1675150903.367658;s:4:"name";s:14:"beforeValidate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:32;a:5:{s:4:"time";d:1675150903.367782;s:4:"name";s:13:"afterValidate";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:33;a:5:{s:4:"time";d:1675150903.367794;s:4:"name";s:12:"beforeInsert";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:34;a:5:{s:4:"time";d:1675150903.371743;s:4:"name";s:11:"afterInsert";s:5:"class";s:21:"yii\db\AfterSaveEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:35;a:5:{s:4:"time";d:1675150903.37178;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:36;a:5:{s:4:"time";d:1675150903.371792;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:37;a:5:{s:4:"time";d:1675150903.382811;s:4:"name";s:17:"commitTransaction";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:38;a:5:{s:4:"time";d:1675150903.382871;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:37:"app\api\v1\controllers\BookController";}i:39;a:5:{s:4:"time";d:1675150903.387709;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:40;a:5:{s:4:"time";d:1675150903.387726;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:41;a:5:{s:4:"time";d:1675150903.399853;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:42;a:5:{s:4:"time";d:1675150903.399905;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:43;a:5:{s:4:"time";d:1675150903.399924;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:44;a:5:{s:4:"time";d:1675150903.399931;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:45;a:5:{s:4:"time";d:1675150903.400005;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\api\v1\V1";}i:46;a:5:{s:4:"time";d:1675150903.400014;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:11:"app\api\Api";}i:47;a:5:{s:4:"time";d:1675150903.400021;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:48;a:5:{s:4:"time";d:1675150903.400033;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:49;a:5:{s:4:"time";d:1675150903.400529;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:50;a:5:{s:4:"time";d:1675150903.402119;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:51;a:5:{s:4:"time";d:1675150903.402197;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1675150903.152264;s:3:"end";d:1675150903.404919;s:6:"memory";i:8544864;}";s:4:"dump";s:6:"a:0:{}";s:6:"router";s:1844:"a:3:{s:8:"messages";a:9:{i:9;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675150903.187028;i:4;a:0:{}i:5;i:5078080;}i:10;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675150903.187045;i:4;a:0:{}i:5;i:5078832;}i:11;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675150903.187051;i:4;a:0:{}i:5;i:5079584;}i:12;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675150903.187057;i:4;a:0:{}i:5;i:5080336;}i:13;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675150903.187063;i:4;a:0:{}i:5;i:5081088;}i:14;a:6:{i:0;a:3:{s:4:"rule";s:1:"/";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675150903.187068;i:4;a:0:{}i:5;i:5081840;}i:15;a:6:{i:0;s:48:"Request parsed with URL rule: api/v1/book/create";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1675150903.187086;i:4;a:0:{}i:5;i:5083504;}i:16;a:6:{i:0;a:3:{s:4:"rule";s:23:"POST api/v1/book/create";s:5:"match";b:1;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1675150903.187096;i:4;a:0:{}i:5;i:5083848;}i:17;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:1;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675150903.187101;i:4;a:0:{}i:5;i:5084864;}}s:5:"route";s:23:"api/v1/book/create-book";s:6:"action";s:57:"app\api\v1\controllers\BookController::actionCreateBook()";}";s:7:"request";s:5004:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:10:{s:13:"authorization";s:67:"Bearer xUp3-K4ah9Q8UUW5QF3gWrO6hZx4_-kyU8024ZABtW74tREMvRRuVY9C18MB";s:10:"user-agent";s:21:"PostmanRuntime/7.29.2";s:6:"accept";s:3:"*/*";s:13:"postman-token";s:36:"06ceb68b-6bc1-4cf7-a06a-f4e558da76db";s:4:"host";s:7:"library";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:10:"connection";s:10:"keep-alive";s:12:"content-type";s:80:"multipart/form-data; boundary=--------------------------220598464982197907475387";s:6:"cookie";s:172:"_csrf=7f0e22bb8a003d81cad63cde5f0e304690f5fc9cf79032a978aba1114920604ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225PqPuToPj_LdkMI3Q5Okzf5WzTLo3VB3%22%3B%7D";s:14:"content-length";s:3:"442";}s:15:"responseHeaders";a:6:{s:4:"Vary";s:6:"Accept";s:12:"Content-Type";s:31:"application/json; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"63d8c6372cd96";s:16:"X-Debug-Duration";s:3:"251";s:12:"X-Debug-Link";s:37:"/debug/default/view?tag=63d8c6372cd96";s:10:"Set-Cookie";s:204:"_csrf=fc9716b08dacfd4a1fa390bb2e87e19100cc6c93b71a498d94e40b09d047f8e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229MV-kkLlYmSp8JqDnoMuFz6jp-nNhgfN%22%3B%7D; path=/; HttpOnly; SameSite=Lax";}s:5:"route";s:23:"api/v1/book/create-book";s:6:"action";s:57:"app\api\v1\controllers\BookController::actionCreateBook()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:4:"POST";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:38:{s:15:"REDIRECT_STATUS";s:3:"200";s:15:"HTTP_USER_AGENT";s:21:"PostmanRuntime/7.29.2";s:11:"HTTP_ACCEPT";s:3:"*/*";s:18:"HTTP_POSTMAN_TOKEN";s:36:"06ceb68b-6bc1-4cf7-a06a-f4e558da76db";s:9:"HTTP_HOST";s:7:"library";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:12:"CONTENT_TYPE";s:80:"multipart/form-data; boundary=--------------------------220598464982197907475387";s:11:"HTTP_COOKIE";s:172:"_csrf=7f0e22bb8a003d81cad63cde5f0e304690f5fc9cf79032a978aba1114920604ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225PqPuToPj_LdkMI3Q5Okzf5WzTLo3VB3%22%3B%7D";s:14:"CONTENT_LENGTH";s:3:"442";s:4:"PATH";s:1302:"d:\openserver\modules\php\PHP_8.1\ext;d:\openserver\modules\php\PHP_8.1\pear;d:\openserver\modules\php\PHP_8.1\pear\bin;d:\openserver\modules\php\PHP_8.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-8.0-Win10\bin;d:\openserver\modules\redis\Redis-5.0;d:\openserver\modules\http\Apache_2.4-PHP_8.0-8.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_8.0-8.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\honor\scoop\shims;C:\Users\honor\AppData\Local\Microsoft\WindowsApps;C:\Users\honor\.dotnet\tools;D:\PhpStorm 2022.1.1\bin;C:\Users\honor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\honor\AppData\Roaming\npm;D:\OpenServer\modules\php\PHP_8.0;C:\Users\honor\scoop\apps\symfony-cli\5.4.20";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"SERVER_NAME";s:7:"library";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:29:"D:/OpenServer/domains/library";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:29:"D:/OpenServer/domains/library";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:43:"D:/OpenServer/domains/library/web/index.php";s:11:"REMOTE_PORT";s:5:"61886";s:12:"REDIRECT_URL";s:19:"/api/v1/book/create";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:19:"/api/v1/book/create";s:11:"SCRIPT_NAME";s:14:"/web/index.php";s:8:"PHP_SELF";s:14:"/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1675150903.134578;s:12:"REQUEST_TIME";i:1675150903;}s:3:"GET";a:0:{}s:4:"POST";a:2:{s:5:"title";s:26:"Какая то книга";s:11:"author_name";a:2:{i:0;s:12:"Пушкин";i:1;s:18:"Лермонтов";}}s:6:"COOKIE";a:1:{s:5:"_csrf";s:130:"7f0e22bb8a003d81cad63cde5f0e304690f5fc9cf79032a978aba1114920604ca:2:{i:0;s:5:"_csrf";i:1;s:32:"5PqPuToPj_LdkMI3Q5Okzf5WzTLo3VB3";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}";s:4:"user";s:1028:"a:5:{s:2:"id";i:2;s:8:"identity";a:8:{s:2:"id";s:1:"2";s:5:"login";s:9:"'Kir4ick'";s:13:"password_hash";s:62:"'$2y$13$rBs.8qc/hHp5Mbx5VBBJaeZgA10M6zrj.NiV1WNR7ultmzbrDxoIO'";s:8:"auth_key";s:62:"'xUp3-K4ah9Q8UUW5QF3gWrO6hZx4_-kyU8024ZABtW74tREMvRRuVY9C18MB'";s:4:"name";s:14:"'Кирилл'";s:11:"middle_name";s:16:"'Панькин'";s:9:"last_name";s:16:"'Юрьевич'";s:11:"position_id";s:1:"2";}s:10:"attributes";a:8:{i:0;a:2:{s:9:"attribute";s:2:"id";s:5:"label";s:2:"Id";}i:1;a:2:{s:9:"attribute";s:5:"login";s:5:"label";s:5:"Login";}i:2;a:2:{s:9:"attribute";s:13:"password_hash";s:5:"label";s:13:"Password Hash";}i:3;a:2:{s:9:"attribute";s:8:"auth_key";s:5:"label";s:8:"Auth Key";}i:4;a:2:{s:9:"attribute";s:4:"name";s:5:"label";s:4:"Name";}i:5;a:2:{s:9:"attribute";s:11:"middle_name";s:5:"label";s:11:"Middle Name";}i:6;a:2:{s:9:"attribute";s:9:"last_name";s:5:"label";s:9:"Last Name";}i:7;a:2:{s:9:"attribute";s:11:"position_id";s:5:"label";s:11:"Position Id";}}s:13:"rolesProvider";N;s:19:"permissionsProvider";N;}";s:5:"asset";s:6:"a:0:{}";s:7:"summary";a:12:{s:3:"tag";s:13:"63d8c6372cd96";s:3:"url";s:33:"http://library/api/v1/book/create";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1675150903.134578;s:10:"statusCode";i:200;s:8:"sqlCount";i:19;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:8544864;s:14:"processingTime";d:0.25225377082824707;}s:10:"exceptions";a:0:{}}

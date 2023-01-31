@@ -438,6 +438,57 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "book",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "xUp3-K4ah9Q8UUW5QF3gWrO6hZx4_-kyU8024ZABtW74tREMvRRuVY9C18MB",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Какая то книга",
+							"type": "text"
+						},
+						{
+							"key": "author_name[0]",
+							"value": "Пушкин",
+							"type": "text"
+						},
+						{
+							"key": "author_name[1]",
+							"value": "Лермонтов",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://library/api/v1/book/create",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"book",
+						"create"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

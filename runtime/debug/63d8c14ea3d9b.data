@@ -1,0 +1,811 @@
+a:14:{s:6:"config";s:1743:"a:5:{s:10:"phpVersion";s:5:"8.1.1";s:10:"yiiVersion";s:6:"2.0.47";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.47";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:5:"8.1.1";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:6:{s:18:"yiier/yii2-helpers";a:3:{s:4:"name";s:18:"yiier/yii2-helpers";s:7:"version";s:7:"2.1.1.0";s:5:"alias";a:1:{s:14:"@yiier/helpers";s:59:"D:\OpenServer\domains\library\vendor/yiier/yii2-helpers/src";}}s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:64:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.22.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:59:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:59:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-faker/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:57:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-gii/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:67:"D:\OpenServer\domains\library\vendor/yiisoft/yii2-symfonymailer/src";}}}}";s:3:"log";s:16848:"a:1:{s:8:"messages";a:62:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675149646.640925;i:4;a:0:{}i:5;i:3003808;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675149646.64326;i:4;a:0:{}i:5;i:3179792;}i:2;a:6:{i:0;s:24:"Loading module: frontend";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675149646.643287;i:4;a:0:{}i:5;i:3180600;}i:3;a:6:{i:0;s:49:"Bootstrap with app\frontend\Frontend::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675149646.643727;i:4;a:0:{}i:5;i:3187872;}i:4;a:6:{i:0;s:39:"Bootstrap with app\api\Api::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675149646.651553;i:4;a:0:{}i:5;i:3546272;}i:5;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675149646.653322;i:4;a:0:{}i:5;i:3767688;}i:6;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675149646.670186;i:4;a:0:{}i:5;i:4780480;}i:7;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675149646.671453;i:4;a:0:{}i:5;i:4830408;}i:8;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1675149646.672084;i:4;a:0:{}i:5;i:4855240;}i:23;a:6:{i:0;s:36:"Route requested: 'api/v1/book/index'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1675149646.676627;i:4;a:0:{}i:5;i:5088184;}i:24;a:6:{i:0;s:19:"Loading module: api";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675149646.676644;i:4;a:0:{}i:5;i:5089808;}i:25;a:6:{i:0;s:18:"Loading module: v1";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1675149646.676706;i:4;a:0:{}i:5;i:5091440;}i:26;a:6:{i:0;s:31:"Route to run: api/v1/book/index";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1675149646.683942;i:4;a:0:{}i:5;i:5457016;}i:27;a:6:{i:0;s:39:"Rate limit skipped: user not logged in.";i:1;i:4;i:2;s:37:"yii\filters\RateLimiter::beforeAction";i:3;d:1675149646.68729;i:4;a:0:{}i:5;i:5576264;}i:28;a:6:{i:0;s:93:"Running action: yii\rest\IndexAction::run(), invoked by app\api\v1\controllers\BookController";i:1;i:8;i:2;s:30:"yii\base\Action::runWithParams";i:3;d:1675149646.687346;i:4;a:0:{}i:5;i:5575128;}i:29;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5434;dbname=postgres";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1675149646.707188;i:4;a:0:{}i:5;i:6863176;}i:32;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.728065;i:4;a:0:{}i:5;i:6997176;}i:35;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.743091;i:4;a:0:{}i:5;i:7035576;}i:38;a:6:{i:0;s:27:"SELECT COUNT(*) FROM "book"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.755475;i:4;a:0:{}i:5;i:7491528;}i:41;a:6:{i:0;s:29:"SELECT * FROM "book" LIMIT 20";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.762695;i:4;a:0:{}i:5;i:7490904;}i:44;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.778276;i:4;a:0:{}i:5;i:7930256;}i:47;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=12";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.784746;i:4;a:0:{}i:5;i:7929264;}i:50;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.789869;i:4;a:0:{}i:5;i:7936960;}i:53;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.799707;i:4;a:0:{}i:5;i:7940800;}i:56;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.807903;i:4;a:0:{}i:5;i:7948152;}i:59;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (19, 20)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.812468;i:4;a:0:{}i:5;i:7947512;}i:62;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.818197;i:4;a:0:{}i:5;i:7957824;}i:65;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.823295;i:4;a:0:{}i:5;i:7961152;}i:68;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=5";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.828658;i:4;a:0:{}i:5;i:7968752;}i:71;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=37";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.834691;i:4;a:0:{}i:5;i:7967688;}i:74;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=6";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.840279;i:4;a:0:{}i:5;i:7982272;}i:77;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (30, 13)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.846056;i:4;a:0:{}i:5;i:7981632;}i:80;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=8";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.851322;i:4;a:0:{}i:5;i:7991936;}i:83;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=20";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.856282;i:4;a:0:{}i:5;i:7990872;}i:86;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=9";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.861082;i:4;a:0:{}i:5;i:7999816;}i:89;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.865828;i:4;a:0:{}i:5;i:7997512;}i:92;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=10";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.870685;i:4;a:0:{}i:5;i:8005112;}i:95;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (16, 39, 33)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.875703;i:4;a:0:{}i:5;i:8004896;}i:98;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=11";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.880942;i:4;a:0:{}i:5;i:8016552;}i:101;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (32, 18, 26)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.885393;i:4;a:0:{}i:5;i:8016336;}i:104;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=12";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.889424;i:4;a:0:{}i:5;i:8028008;}i:107;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.893409;i:4;a:0:{}i:5;i:8025704;}i:110;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=13";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.897975;i:4;a:0:{}i:5;i:8033304;}i:113;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.902379;i:4;a:0:{}i:5;i:8031000;}i:116;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=14";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.90647;i:4;a:0:{}i:5;i:8038600;}i:119;a:6:{i:0;s:48:"SELECT * FROM "author" WHERE "id" IN (32, 36, 9)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.910912;i:4;a:0:{}i:5;i:8038384;}i:122;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=15";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.916205;i:4;a:0:{}i:5;i:8050040;}i:125;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.920353;i:4;a:0:{}i:5;i:8047736;}i:128;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=16";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.924592;i:4;a:0:{}i:5;i:8055336;}i:131;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=13";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.929301;i:4;a:0:{}i:5;i:8058368;}i:134;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=17";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.933789;i:4;a:0:{}i:5;i:8067312;}i:137;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.937681;i:4;a:0:{}i:5;i:8065008;}i:140;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=18";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.941616;i:4;a:0:{}i:5;i:8072608;}i:143;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (37, 23)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.946133;i:4;a:0:{}i:5;i:8071968;}i:146;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=19";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.950464;i:4;a:0:{}i:5;i:8082280;}i:149;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.954449;i:4;a:0:{}i:5;i:8079976;}i:152;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=20";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.958349;i:4;a:0:{}i:5;i:8087576;}i:155;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.963197;i:4;a:0:{}i:5;i:8085272;}i:158;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=21";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.967297;i:4;a:0:{}i:5;i:8092872;}i:161;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.971111;i:4;a:0:{}i:5;i:8090568;}i:164;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=22";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.975104;i:4;a:0:{}i:5;i:8098168;}i:167;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.97946;i:4;a:0:{}i:5;i:8095864;}}}";s:9:"profiling";s:29064:"a:3:{s:6:"memory";i:8414856;s:4:"time";d:0.37082982063293457;s:8:"messages";a:94:{i:30;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5434;dbname=postgres";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1675149646.707215;i:4;a:0:{}i:5;i:6863552;}i:31;a:6:{i:0;s:69:"Opening DB connection: pgsql:host=localhost;port=5434;dbname=postgres";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1675149646.726276;i:4;a:0:{}i:5;i:6864728;}i:33;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.728123;i:4;a:0:{}i:5;i:6999280;}i:34;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.740435;i:4;a:0:{}i:5;i:7009104;}i:36;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.743139;i:4;a:0:{}i:5;i:7036312;}i:37;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.748991;i:4;a:0:{}i:5;i:7037120;}i:39;a:6:{i:0;s:27:"SELECT COUNT(*) FROM "book"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.755517;i:4;a:0:{}i:5;i:7492264;}i:40;a:6:{i:0;s:27:"SELECT COUNT(*) FROM "book"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.760958;i:4;a:0:{}i:5;i:7492704;}i:42;a:6:{i:0;s:29:"SELECT * FROM "book" LIMIT 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.762737;i:4;a:0:{}i:5;i:7491640;}i:43;a:6:{i:0;s:29:"SELECT * FROM "book" LIMIT 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.767335;i:4;a:0:{}i:5;i:7504024;}i:45;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.778322;i:4;a:0:{}i:5;i:7932112;}i:46;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.783067;i:4;a:0:{}i:5;i:7933408;}i:48;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=12";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.784799;i:4;a:0:{}i:5;i:7931120;}i:49;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=12";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.788257;i:4;a:0:{}i:5;i:7932480;}i:51;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.789941;i:4;a:0:{}i:5;i:7937696;}i:52;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.797616;i:4;a:0:{}i:5;i:7942960;}i:54;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.799763;i:4;a:0:{}i:5;i:7941536;}i:55;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.805678;i:4;a:0:{}i:5;i:7942344;}i:57;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.807951;i:4;a:0:{}i:5;i:7950008;}i:58;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.810931;i:4;a:0:{}i:5;i:7951680;}i:60;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (19, 20)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.812523;i:4;a:0:{}i:5;i:7949392;}i:61;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (19, 20)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.816025;i:4;a:0:{}i:5;i:7951248;}i:63;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.818249;i:4;a:0:{}i:5;i:7959680;}i:64;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.821815;i:4;a:0:{}i:5;i:7960280;}i:66;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.823357;i:4;a:0:{}i:5;i:7961888;}i:67;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.826786;i:4;a:0:{}i:5;i:7962440;}i:69;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.828709;i:4;a:0:{}i:5;i:7970608;}i:70;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.832393;i:4;a:0:{}i:5;i:7971904;}i:72;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=37";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.834746;i:4;a:0:{}i:5;i:7969544;}i:73;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=37";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.838151;i:4;a:0:{}i:5;i:7970912;}i:75;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=6";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.840332;i:4;a:0:{}i:5;i:7984128;}i:76;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=6";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.844375;i:4;a:0:{}i:5;i:7985800;}i:78;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (30, 13)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.846107;i:4;a:0:{}i:5;i:7983512;}i:79;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (30, 13)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.849155;i:4;a:0:{}i:5;i:7985360;}i:81;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=8";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.851394;i:4;a:0:{}i:5;i:7993792;}i:82;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=8";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.85478;i:4;a:0:{}i:5;i:7995088;}i:84;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.856326;i:4;a:0:{}i:5;i:7992728;}i:85;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.859263;i:4;a:0:{}i:5;i:7994088;}i:87;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.861127;i:4;a:0:{}i:5;i:8001672;}i:88;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.864079;i:4;a:0:{}i:5;i:8002272;}i:90;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.865869;i:4;a:0:{}i:5;i:7998248;}i:91;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.868943;i:4;a:0:{}i:5;i:7998800;}i:93;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=10";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.870732;i:4;a:0:{}i:5;i:8006968;}i:94;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=10";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.874126;i:4;a:0:{}i:5;i:8009048;}i:96;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (16, 39, 33)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.875748;i:4;a:0:{}i:5;i:8006816;}i:97;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (16, 39, 33)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.878796;i:4;a:0:{}i:5;i:8009160;}i:99;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=11";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.881013;i:4;a:0:{}i:5;i:8018408;}i:100;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=11";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.884154;i:4;a:0:{}i:5;i:8020488;}i:102;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (32, 18, 26)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.885421;i:4;a:0:{}i:5;i:8018256;}i:103;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (32, 18, 26)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.887858;i:4;a:0:{}i:5;i:8020616;}i:105;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=12";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.889457;i:4;a:0:{}i:5;i:8029864;}i:106;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=12";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.892201;i:4;a:0:{}i:5;i:8030496;}i:108;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.893433;i:4;a:0:{}i:5;i:8026440;}i:109;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.895913;i:4;a:0:{}i:5;i:8026992;}i:111;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=13";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.898021;i:4;a:0:{}i:5;i:8035160;}i:112;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=13";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.901134;i:4;a:0:{}i:5;i:8035792;}i:114;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.902408;i:4;a:0:{}i:5;i:8031736;}i:115;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.905024;i:4;a:0:{}i:5;i:8032288;}i:117;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=14";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.906497;i:4;a:0:{}i:5;i:8040456;}i:118;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=14";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.909253;i:4;a:0:{}i:5;i:8042912;}i:120;a:6:{i:0;s:48:"SELECT * FROM "author" WHERE "id" IN (32, 36, 9)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.910967;i:4;a:0:{}i:5;i:8040304;}i:121;a:6:{i:0;s:48:"SELECT * FROM "author" WHERE "id" IN (32, 36, 9)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.914445;i:4;a:0:{}i:5;i:8042616;}i:123;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=15";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.91626;i:4;a:0:{}i:5;i:8051896;}i:124;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=15";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.919085;i:4;a:0:{}i:5;i:8052528;}i:126;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.920376;i:4;a:0:{}i:5;i:8048472;}i:127;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.923214;i:4;a:0:{}i:5;i:8049024;}i:129;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=16";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.924641;i:4;a:0:{}i:5;i:8061288;}i:130;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=16";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.92736;i:4;a:0:{}i:5;i:8062616;}i:132;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=13";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.929352;i:4;a:0:{}i:5;i:8060224;}i:133;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=13";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.932237;i:4;a:0:{}i:5;i:8061584;}i:135;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=17";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.933822;i:4;a:0:{}i:5;i:8069168;}i:136;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=17";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.936442;i:4;a:0:{}i:5;i:8069800;}i:138;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.937706;i:4;a:0:{}i:5;i:8065744;}i:139;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.940151;i:4;a:0:{}i:5;i:8066296;}i:141;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=18";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.941655;i:4;a:0:{}i:5;i:8074464;}i:142;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=18";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.944462;i:4;a:0:{}i:5;i:8076168;}i:144;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (37, 23)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.946174;i:4;a:0:{}i:5;i:8073848;}i:145;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (37, 23)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.948973;i:4;a:0:{}i:5;i:8075704;}i:147;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=19";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.950494;i:4;a:0:{}i:5;i:8084136;}i:148;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=19";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.9532;i:4;a:0:{}i:5;i:8084768;}i:150;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.954473;i:4;a:0:{}i:5;i:8080712;}i:151;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.956989;i:4;a:0:{}i:5;i:8081264;}i:153;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.958379;i:4;a:0:{}i:5;i:8089432;}i:154;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.961545;i:4;a:0:{}i:5;i:8090064;}i:156;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.96323;i:4;a:0:{}i:5;i:8086008;}i:157;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.965839;i:4;a:0:{}i:5;i:8086560;}i:159;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=21";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.967327;i:4;a:0:{}i:5;i:8094728;}i:160;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=21";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.969853;i:4;a:0:{}i:5;i:8095360;}i:162;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.971134;i:4;a:0:{}i:5;i:8091304;}i:163;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.973662;i:4;a:0:{}i:5;i:8091856;}i:165;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.975134;i:4;a:0:{}i:5;i:8100024;}i:166;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.977962;i:4;a:0:{}i:5;i:8100656;}i:168;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.979483;i:4;a:0:{}i:5;i:8096600;}i:169;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.98249;i:4;a:0:{}i:5;i:8097152;}}}";s:2:"db";s:28640:"a:1:{s:8:"messages";a:92:{i:33;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.728123;i:4;a:0:{}i:5;i:6999280;}i:34;a:6:{i:0;s:2810:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'book'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.740435;i:4;a:0:{}i:5;i:7009104;}i:36;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.743139;i:4;a:0:{}i:5;i:7036312;}i:37;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='book'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.748991;i:4;a:0:{}i:5;i:7037120;}i:39;a:6:{i:0;s:27:"SELECT COUNT(*) FROM "book"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.755517;i:4;a:0:{}i:5;i:7492264;}i:40;a:6:{i:0;s:27:"SELECT COUNT(*) FROM "book"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.760958;i:4;a:0:{}i:5;i:7492704;}i:42;a:6:{i:0;s:29:"SELECT * FROM "book" LIMIT 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.762737;i:4;a:0:{}i:5;i:7491640;}i:43;a:6:{i:0;s:29:"SELECT * FROM "book" LIMIT 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.767335;i:4;a:0:{}i:5;i:7504024;}i:45;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.778322;i:4;a:0:{}i:5;i:7932112;}i:46;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.783067;i:4;a:0:{}i:5;i:7933408;}i:48;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=12";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.784799;i:4;a:0:{}i:5;i:7931120;}i:49;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=12";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.788257;i:4;a:0:{}i:5;i:7932480;}i:51;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.789941;i:4;a:0:{}i:5;i:7937696;}i:52;a:6:{i:0;s:2812:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) OR attidentity != '' AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'author'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.797616;i:4;a:0:{}i:5;i:7942960;}i:54;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.799763;i:4;a:0:{}i:5;i:7941536;}i:55;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='author'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.805678;i:4;a:0:{}i:5;i:7942344;}i:57;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.807951;i:4;a:0:{}i:5;i:7950008;}i:58;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.810931;i:4;a:0:{}i:5;i:7951680;}i:60;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (19, 20)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.812523;i:4;a:0:{}i:5;i:7949392;}i:61;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (19, 20)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.816025;i:4;a:0:{}i:5;i:7951248;}i:63;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.818249;i:4;a:0:{}i:5;i:7959680;}i:64;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.821815;i:4;a:0:{}i:5;i:7960280;}i:66;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.823357;i:4;a:0:{}i:5;i:7961888;}i:67;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.826786;i:4;a:0:{}i:5;i:7962440;}i:69;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.828709;i:4;a:0:{}i:5;i:7970608;}i:70;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.832393;i:4;a:0:{}i:5;i:7971904;}i:72;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=37";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.834746;i:4;a:0:{}i:5;i:7969544;}i:73;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=37";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.838151;i:4;a:0:{}i:5;i:7970912;}i:75;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=6";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.840332;i:4;a:0:{}i:5;i:7984128;}i:76;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=6";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.844375;i:4;a:0:{}i:5;i:7985800;}i:78;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (30, 13)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.846107;i:4;a:0:{}i:5;i:7983512;}i:79;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (30, 13)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.849155;i:4;a:0:{}i:5;i:7985360;}i:81;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=8";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.851394;i:4;a:0:{}i:5;i:7993792;}i:82;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=8";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.85478;i:4;a:0:{}i:5;i:7995088;}i:84;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.856326;i:4;a:0:{}i:5;i:7992728;}i:85;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.859263;i:4;a:0:{}i:5;i:7994088;}i:87;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.861127;i:4;a:0:{}i:5;i:8001672;}i:88;a:6:{i:0;s:45:"SELECT * FROM "book_author" WHERE "book_id"=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.864079;i:4;a:0:{}i:5;i:8002272;}i:90;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.865869;i:4;a:0:{}i:5;i:7998248;}i:91;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.868943;i:4;a:0:{}i:5;i:7998800;}i:93;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=10";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.870732;i:4;a:0:{}i:5;i:8006968;}i:94;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=10";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.874126;i:4;a:0:{}i:5;i:8009048;}i:96;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (16, 39, 33)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.875748;i:4;a:0:{}i:5;i:8006816;}i:97;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (16, 39, 33)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.878796;i:4;a:0:{}i:5;i:8009160;}i:99;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=11";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.881013;i:4;a:0:{}i:5;i:8018408;}i:100;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=11";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.884154;i:4;a:0:{}i:5;i:8020488;}i:102;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (32, 18, 26)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.885421;i:4;a:0:{}i:5;i:8018256;}i:103;a:6:{i:0;s:49:"SELECT * FROM "author" WHERE "id" IN (32, 18, 26)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.887858;i:4;a:0:{}i:5;i:8020616;}i:105;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=12";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.889457;i:4;a:0:{}i:5;i:8029864;}i:106;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=12";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.892201;i:4;a:0:{}i:5;i:8030496;}i:108;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.893433;i:4;a:0:{}i:5;i:8026440;}i:109;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.895913;i:4;a:0:{}i:5;i:8026992;}i:111;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=13";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.898021;i:4;a:0:{}i:5;i:8035160;}i:112;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=13";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.901134;i:4;a:0:{}i:5;i:8035792;}i:114;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.902408;i:4;a:0:{}i:5;i:8031736;}i:115;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.905024;i:4;a:0:{}i:5;i:8032288;}i:117;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=14";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.906497;i:4;a:0:{}i:5;i:8040456;}i:118;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=14";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.909253;i:4;a:0:{}i:5;i:8042912;}i:120;a:6:{i:0;s:48:"SELECT * FROM "author" WHERE "id" IN (32, 36, 9)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.910967;i:4;a:0:{}i:5;i:8040304;}i:121;a:6:{i:0;s:48:"SELECT * FROM "author" WHERE "id" IN (32, 36, 9)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.914445;i:4;a:0:{}i:5;i:8042616;}i:123;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=15";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.91626;i:4;a:0:{}i:5;i:8051896;}i:124;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=15";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.919085;i:4;a:0:{}i:5;i:8052528;}i:126;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.920376;i:4;a:0:{}i:5;i:8048472;}i:127;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.923214;i:4;a:0:{}i:5;i:8049024;}i:129;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=16";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.924641;i:4;a:0:{}i:5;i:8061288;}i:130;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=16";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.92736;i:4;a:0:{}i:5;i:8062616;}i:132;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=13";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.929352;i:4;a:0:{}i:5;i:8060224;}i:133;a:6:{i:0;s:36:"SELECT * FROM "author" WHERE "id"=13";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.932237;i:4;a:0:{}i:5;i:8061584;}i:135;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=17";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.933822;i:4;a:0:{}i:5;i:8069168;}i:136;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=17";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.936442;i:4;a:0:{}i:5;i:8069800;}i:138;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.937706;i:4;a:0:{}i:5;i:8065744;}i:139;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.940151;i:4;a:0:{}i:5;i:8066296;}i:141;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=18";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.941655;i:4;a:0:{}i:5;i:8074464;}i:142;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=18";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.944462;i:4;a:0:{}i:5;i:8076168;}i:144;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (37, 23)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.946174;i:4;a:0:{}i:5;i:8073848;}i:145;a:6:{i:0;s:45:"SELECT * FROM "author" WHERE "id" IN (37, 23)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.948973;i:4;a:0:{}i:5;i:8075704;}i:147;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=19";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.950494;i:4;a:0:{}i:5;i:8084136;}i:148;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=19";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.9532;i:4;a:0:{}i:5;i:8084768;}i:150;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.954473;i:4;a:0:{}i:5;i:8080712;}i:151;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.956989;i:4;a:0:{}i:5;i:8081264;}i:153;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.958379;i:4;a:0:{}i:5;i:8089432;}i:154;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.961545;i:4;a:0:{}i:5;i:8090064;}i:156;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.96323;i:4;a:0:{}i:5;i:8086008;}i:157;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.965839;i:4;a:0:{}i:5;i:8086560;}i:159;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=21";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.967327;i:4;a:0:{}i:5;i:8094728;}i:160;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=21";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.969853;i:4;a:0:{}i:5;i:8095360;}i:162;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.971134;i:4;a:0:{}i:5;i:8091304;}i:163;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.973662;i:4;a:0:{}i:5;i:8091856;}i:165;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.975134;i:4;a:0:{}i:5;i:8100024;}i:166;a:6:{i:0;s:46:"SELECT * FROM "book_author" WHERE "book_id"=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.977962;i:4;a:0:{}i:5;i:8100656;}i:168;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.979483;i:4;a:0:{}i:5;i:8096600;}i:169;a:6:{i:0;s:32:"SELECT * FROM "author" WHERE 0=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1675149646.98249;i:4;a:0:{}i:5;i:8097152;}}}";s:5:"event";s:22784:"a:134:{i:0;a:5:{s:4:"time";d:1675149646.675786;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1675149646.684177;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1675149646.684197;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:11:"app\api\Api";}i:3;a:5:{s:4:"time";d:1675149646.684209;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\api\v1\V1";}i:4;a:5:{s:4:"time";d:1675149646.687323;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:37:"app\api\v1\controllers\BookController";}i:5;a:5:{s:4:"time";d:1675149646.700049;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:6;a:5:{s:4:"time";d:1675149646.704523;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:7;a:5:{s:4:"time";d:1675149646.726257;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:8;a:5:{s:4:"time";d:1675149646.751783;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:37:"app\api\v1\controllers\BookController";}i:9;a:5:{s:4:"time";d:1675149646.769161;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:10;a:5:{s:4:"time";d:1675149646.769232;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:11;a:5:{s:4:"time";d:1675149646.769252;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:12;a:5:{s:4:"time";d:1675149646.769269;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:13;a:5:{s:4:"time";d:1675149646.769285;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:14;a:5:{s:4:"time";d:1675149646.7693;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:15;a:5:{s:4:"time";d:1675149646.769315;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:16;a:5:{s:4:"time";d:1675149646.769329;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:17;a:5:{s:4:"time";d:1675149646.769343;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:18;a:5:{s:4:"time";d:1675149646.769357;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:19;a:5:{s:4:"time";d:1675149646.769371;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:20;a:5:{s:4:"time";d:1675149646.769385;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:21;a:5:{s:4:"time";d:1675149646.769398;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:22;a:5:{s:4:"time";d:1675149646.769411;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:23;a:5:{s:4:"time";d:1675149646.769425;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:24;a:5:{s:4:"time";d:1675149646.769438;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:25;a:5:{s:4:"time";d:1675149646.769451;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:26;a:5:{s:4:"time";d:1675149646.769465;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:27;a:5:{s:4:"time";d:1675149646.769479;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:28;a:5:{s:4:"time";d:1675149646.769492;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:29;a:5:{s:4:"time";d:1675149646.769509;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:30;a:5:{s:4:"time";d:1675149646.769515;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:31;a:5:{s:4:"time";d:1675149646.76952;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:32;a:5:{s:4:"time";d:1675149646.769526;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:33;a:5:{s:4:"time";d:1675149646.769532;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:34;a:5:{s:4:"time";d:1675149646.769537;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:35;a:5:{s:4:"time";d:1675149646.769543;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:36;a:5:{s:4:"time";d:1675149646.769548;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:37;a:5:{s:4:"time";d:1675149646.769554;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:38;a:5:{s:4:"time";d:1675149646.769559;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:39;a:5:{s:4:"time";d:1675149646.769565;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:40;a:5:{s:4:"time";d:1675149646.769571;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:41;a:5:{s:4:"time";d:1675149646.769576;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:42;a:5:{s:4:"time";d:1675149646.769582;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:43;a:5:{s:4:"time";d:1675149646.769587;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:44;a:5:{s:4:"time";d:1675149646.769593;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:45;a:5:{s:4:"time";d:1675149646.76961;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:46;a:5:{s:4:"time";d:1675149646.769616;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:47;a:5:{s:4:"time";d:1675149646.769622;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:48;a:5:{s:4:"time";d:1675149646.769627;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"app\src\models\Book";}i:49;a:5:{s:4:"time";d:1675149646.777032;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:50;a:5:{s:4:"time";d:1675149646.777053;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:51;a:5:{s:4:"time";d:1675149646.789739;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:52;a:5:{s:4:"time";d:1675149646.807477;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:53;a:5:{s:4:"time";d:1675149646.807714;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:54;a:5:{s:4:"time";d:1675149646.807736;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:55;a:5:{s:4:"time";d:1675149646.817749;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:56;a:5:{s:4:"time";d:1675149646.817805;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:57;a:5:{s:4:"time";d:1675149646.817832;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:58;a:5:{s:4:"time";d:1675149646.817843;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:59;a:5:{s:4:"time";d:1675149646.818033;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:60;a:5:{s:4:"time";d:1675149646.818053;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:61;a:5:{s:4:"time";d:1675149646.828459;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:62;a:5:{s:4:"time";d:1675149646.828481;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:63;a:5:{s:4:"time";d:1675149646.839786;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:64;a:5:{s:4:"time";d:1675149646.839855;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:65;a:5:{s:4:"time";d:1675149646.840088;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:66;a:5:{s:4:"time";d:1675149646.840111;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:67;a:5:{s:4:"time";d:1675149646.850828;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:68;a:5:{s:4:"time";d:1675149646.850892;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:69;a:5:{s:4:"time";d:1675149646.850919;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:70;a:5:{s:4:"time";d:1675149646.850929;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:71;a:5:{s:4:"time";d:1675149646.851145;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:72;a:5:{s:4:"time";d:1675149646.851166;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:73;a:5:{s:4:"time";d:1675149646.860671;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:74;a:5:{s:4:"time";d:1675149646.860739;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:75;a:5:{s:4:"time";d:1675149646.860921;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:76;a:5:{s:4:"time";d:1675149646.860942;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:77;a:5:{s:4:"time";d:1675149646.870505;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:78;a:5:{s:4:"time";d:1675149646.87053;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:79;a:5:{s:4:"time";d:1675149646.880456;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:80;a:5:{s:4:"time";d:1675149646.880514;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:81;a:5:{s:4:"time";d:1675149646.88054;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:82;a:5:{s:4:"time";d:1675149646.880562;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:83;a:5:{s:4:"time";d:1675149646.880573;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:84;a:5:{s:4:"time";d:1675149646.880582;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:85;a:5:{s:4:"time";d:1675149646.880779;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:86;a:5:{s:4:"time";d:1675149646.8808;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:87;a:5:{s:4:"time";d:1675149646.889113;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:88;a:5:{s:4:"time";d:1675149646.88915;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:89;a:5:{s:4:"time";d:1675149646.889174;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:90;a:5:{s:4:"time";d:1675149646.889187;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:91;a:5:{s:4:"time";d:1675149646.889193;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:92;a:5:{s:4:"time";d:1675149646.889198;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:93;a:5:{s:4:"time";d:1675149646.889324;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:94;a:5:{s:4:"time";d:1675149646.889337;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:95;a:5:{s:4:"time";d:1675149646.897818;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:96;a:5:{s:4:"time";d:1675149646.897839;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:97;a:5:{s:4:"time";d:1675149646.906355;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:98;a:5:{s:4:"time";d:1675149646.906373;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:99;a:5:{s:4:"time";d:1675149646.915815;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:100;a:5:{s:4:"time";d:1675149646.915864;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:101;a:5:{s:4:"time";d:1675149646.915879;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:102;a:5:{s:4:"time";d:1675149646.915892;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:103;a:5:{s:4:"time";d:1675149646.915898;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:104;a:5:{s:4:"time";d:1675149646.915904;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:105;a:5:{s:4:"time";d:1675149646.916069;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:106;a:5:{s:4:"time";d:1675149646.916083;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:107;a:5:{s:4:"time";d:1675149646.924485;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:108;a:5:{s:4:"time";d:1675149646.924501;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:109;a:5:{s:4:"time";d:1675149646.933452;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:110;a:5:{s:4:"time";d:1675149646.933499;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:111;a:5:{s:4:"time";d:1675149646.933658;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:112;a:5:{s:4:"time";d:1675149646.933672;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:113;a:5:{s:4:"time";d:1675149646.941505;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:114;a:5:{s:4:"time";d:1675149646.941521;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:115;a:5:{s:4:"time";d:1675149646.950145;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:116;a:5:{s:4:"time";d:1675149646.950188;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:117;a:5:{s:4:"time";d:1675149646.950204;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:118;a:5:{s:4:"time";d:1675149646.950211;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"app\src\models\Author";}i:119;a:5:{s:4:"time";d:1675149646.950352;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:120;a:5:{s:4:"time";d:1675149646.950365;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:121;a:5:{s:4:"time";d:1675149646.958236;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:122;a:5:{s:4:"time";d:1675149646.958252;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:123;a:5:{s:4:"time";d:1675149646.967171;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:124;a:5:{s:4:"time";d:1675149646.967189;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:125;a:5:{s:4:"time";d:1675149646.974954;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:126;a:5:{s:4:"time";d:1675149646.974976;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:127;a:5:{s:4:"time";d:1675149646.98726;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:13:"app\api\v1\V1";}i:128;a:5:{s:4:"time";d:1675149646.987276;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:11:"app\api\Api";}i:129;a:5:{s:4:"time";d:1675149646.987285;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:130;a:5:{s:4:"time";d:1675149646.9873;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:131;a:5:{s:4:"time";d:1675149646.98758;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:132;a:5:{s:4:"time";d:1675149646.988631;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:133;a:5:{s:4:"time";d:1675149646.98869;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1675149646.620433;s:3:"end";d:1675149646.992002;s:6:"memory";i:8414856;}";s:4:"dump";s:6:"a:0:{}";s:6:"router";s:2894:"a:3:{s:8:"messages";a:14:{i:9;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675149646.676422;i:4;a:0:{}i:5;i:5077664;}i:10;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675149646.676447;i:4;a:0:{}i:5;i:5078416;}i:11;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675149646.676457;i:4;a:0:{}i:5;i:5079168;}i:12;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675149646.676466;i:4;a:0:{}i:5;i:5079920;}i:13;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675149646.676476;i:4;a:0:{}i:5;i:5080672;}i:14;a:6:{i:0;a:3:{s:4:"rule";s:1:"/";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675149646.676485;i:4;a:0:{}i:5;i:5081424;}i:15;a:6:{i:0;a:3:{s:4:"rule";s:23:"POST api/v1/book/create";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1675149646.676514;i:4;a:0:{}i:5;i:5082600;}i:16;a:6:{i:0;a:3:{s:4:"rule";s:35:"PUT,PATCH api/v1/book/<id:\d[\d,]*>";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1675149646.676528;i:4;a:0:{}i:5;i:5083416;}i:17;a:6:{i:0;a:3:{s:4:"rule";s:32:"DELETE api/v1/book/<id:\d[\d,]*>";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1675149646.676539;i:4;a:0:{}i:5;i:5084872;}i:18;a:6:{i:0;a:3:{s:4:"rule";s:34:"GET,HEAD api/v1/book/<id:\d[\d,]*>";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1675149646.676553;i:4;a:0:{}i:5;i:5085688;}i:19;a:6:{i:0;a:3:{s:4:"rule";s:16:"POST api/v1/book";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1675149646.676563;i:4;a:0:{}i:5;i:5086488;}i:20;a:6:{i:0;s:41:"Request parsed with URL rule: api/v1/book";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1675149646.676582;i:4;a:0:{}i:5;i:5087768;}i:21;a:6:{i:0;a:3:{s:4:"rule";s:20:"GET,HEAD api/v1/book";s:5:"match";b:1;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1675149646.676591;i:4;a:0:{}i:5;i:5088120;}i:22;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:1;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1675149646.676599;i:4;a:0:{}i:5;i:5088496;}}s:5:"route";s:17:"api/v1/book/index";s:6:"action";s:27:"yii\rest\IndexAction::run()";}";s:7:"request";s:5363:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:10:{s:4:"host";s:7:"library";s:10:"connection";s:10:"keep-alive";s:6:"accept";s:3:"*/*";s:12:"x-csrf-token";s:88:"V4S_Bur0xYZvYl_5F3kdnYvRs1QwqX4_kcum8kFusq4etI5tjoen9zcab55WMHrEs4fwbVTAOQzguZejFkPnmA==";s:16:"x-requested-with";s:14:"XMLHttpRequest";s:10:"user-agent";s:144:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.0.2947 Yowser/2.5 Safari/537.36";s:7:"referer";s:15:"http://library/";s:15:"accept-encoding";s:13:"gzip, deflate";s:15:"accept-language";s:11:"ru,en;q=0.9";s:6:"cookie";s:172:"_csrf=97fc1fda94c25938c1da90c295ddca6e372f041e6ed4852db9fb7b59675b3218a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I01kdsbqXx0gAIgY8VC9diG3qr1QW-U6%22%3B%7D";}s:15:"responseHeaders";a:10:{s:4:"Vary";s:6:"Accept";s:24:"X-Pagination-Total-Count";s:2:"40";s:23:"X-Pagination-Page-Count";s:1:"2";s:25:"X-Pagination-Current-Page";s:1:"1";s:21:"X-Pagination-Per-Page";s:2:"20";s:4:"Link";s:247:"<http://library/api/v1/book?expand=authors&page=1>; rel=self, <http://library/api/v1/book?expand=authors&page=1>; rel=first, <http://library/api/v1/book?expand=authors&page=2>; rel=last, <http://library/api/v1/book?expand=authors&page=2>; rel=next";s:12:"Content-Type";s:31:"application/json; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"63d8c14ea3d9b";s:16:"X-Debug-Duration";s:3:"369";s:12:"X-Debug-Link";s:37:"/debug/default/view?tag=63d8c14ea3d9b";}s:5:"route";s:17:"api/v1/book/index";s:6:"action";s:27:"yii\rest\IndexAction::run()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:1;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:40:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:7:"library";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_ACCEPT";s:3:"*/*";s:17:"HTTP_X_CSRF_TOKEN";s:88:"V4S_Bur0xYZvYl_5F3kdnYvRs1QwqX4_kcum8kFusq4etI5tjoen9zcab55WMHrEs4fwbVTAOQzguZejFkPnmA==";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:15:"HTTP_USER_AGENT";s:144:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.0.2947 Yowser/2.5 Safari/537.36";s:12:"HTTP_REFERER";s:15:"http://library/";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:11:"ru,en;q=0.9";s:11:"HTTP_COOKIE";s:172:"_csrf=97fc1fda94c25938c1da90c295ddca6e372f041e6ed4852db9fb7b59675b3218a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I01kdsbqXx0gAIgY8VC9diG3qr1QW-U6%22%3B%7D";s:4:"PATH";s:1302:"d:\openserver\modules\php\PHP_8.1\ext;d:\openserver\modules\php\PHP_8.1\pear;d:\openserver\modules\php\PHP_8.1\pear\bin;d:\openserver\modules\php\PHP_8.1;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-8.0-Win10\bin;d:\openserver\modules\redis\Redis-5.0;d:\openserver\modules\http\Apache_2.4-PHP_8.0-8.1\bin;d:\openserver\modules\http\Apache_2.4-PHP_8.0-8.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\honor\scoop\shims;C:\Users\honor\AppData\Local\Microsoft\WindowsApps;C:\Users\honor\.dotnet\tools;D:\PhpStorm 2022.1.1\bin;C:\Users\honor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\honor\AppData\Roaming\npm;D:\OpenServer\modules\php\PHP_8.0;C:\Users\honor\scoop\apps\symfony-cli\5.4.20";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"SERVER_NAME";s:7:"library";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:29:"D:/OpenServer/domains/library";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:29:"D:/OpenServer/domains/library";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:43:"D:/OpenServer/domains/library/web/index.php";s:11:"REMOTE_PORT";s:5:"50601";s:12:"REDIRECT_URL";s:12:"/api/v1/book";s:21:"REDIRECT_QUERY_STRING";s:14:"expand=authors";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:14:"expand=authors";s:11:"REQUEST_URI";s:27:"/api/v1/book?expand=authors";s:11:"SCRIPT_NAME";s:14:"/web/index.php";s:8:"PHP_SELF";s:14:"/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1675149646.588575;s:12:"REQUEST_TIME";i:1675149646;}s:3:"GET";a:1:{s:6:"expand";s:7:"authors";}s:4:"POST";a:0:{}s:6:"COOKIE";a:1:{s:5:"_csrf";s:130:"97fc1fda94c25938c1da90c295ddca6e372f041e6ed4852db9fb7b59675b3218a:2:{i:0;s:5:"_csrf";i:1;s:32:"I01kdsbqXx0gAIgY8VC9diG3qr1QW-U6";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}";s:4:"user";s:2:"N;";s:5:"asset";s:6:"a:0:{}";s:7:"summary";a:12:{s:3:"tag";s:13:"63d8c14ea3d9b";s:3:"url";s:41:"http://library/api/v1/book?expand=authors";s:4:"ajax";i:1;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1675149646.588575;s:10:"statusCode";i:200;s:8:"sqlCount";i:46;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:8414856;s:14:"processingTime";d:0.37082982063293457;}s:10:"exceptions";a:0:{}}
