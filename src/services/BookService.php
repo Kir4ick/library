@@ -39,14 +39,13 @@ class BookService implements BookServiceInterface
             $transaction->commit();
         }catch (\Exception $e){
             $transaction->rollBack();
-            return ['message' => 'Не удалось добавить книгу', $book->errors];
+            return ['message' => 'Не удалось добавить книгу', $book->errors, 'code' => 500];
         }
         return $book;
     }
 
     private function createOrGetAuthor($name){
         $author = Author::findOne(['name' => $name]);
-
 
         if($author === null){
 

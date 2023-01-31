@@ -109,7 +109,6 @@ $this->title = 'My Yii Application';
             method: 'GET',
             data: filters,
             success: function (data) {
-                console.log(data);
                 createPagination(data.data._links, data.data._meta);
                 createBooks(data.data.items);
             }
@@ -168,7 +167,6 @@ $this->title = 'My Yii Application';
             tableBooks = $('.table-books');
             tableBooks.empty();
             for (let book of books) {
-                console.log(books);
                 tableBooks.append(`
                 <tr class="book bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">

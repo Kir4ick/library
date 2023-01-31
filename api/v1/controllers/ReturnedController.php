@@ -17,7 +17,7 @@ class ReturnedController extends \app\api\controllers\BaseApiActiveController
     public function actions()
     {
         $actions = parent::actions();
-        unset($actions['create']);
+        unset($actions['create'],$actions['delete'], $actions['update']);
         return $actions;
     }
 

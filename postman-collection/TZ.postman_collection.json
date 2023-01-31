@@ -1,0 +1,443 @@
+{
+	"info": {
+		"_postman_id": "c595c114-8576-49cd-8d7f-209659d227b2",
+		"name": "TZ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17892649"
+	},
+	"item": [
+		{
+			"name": "register-client",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "28-RRRXzk9Uu8r0Msbxb8gCsJ6lzQeCjJ6JPqA0Ea9qazPUw2AJk7c27pVaN",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Кирилл",
+							"type": "text"
+						},
+						{
+							"key": "middle_name",
+							"value": "Панькин",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Юрьевич",
+							"type": "text"
+						},
+						{
+							"key": "passport_series",
+							"value": "6117",
+							"type": "text"
+						},
+						{
+							"key": "passport_number",
+							"value": "014766",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://library/api/v1/register/client",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"register",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-worker",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "28-RRRXzk9Uu8r0Msbxb8gCsJ6lzQeCjJ6JPqA0Ea9qazPUw2AJk7c27pVaN",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "login",
+							"value": "Alekssssdsdsdsd",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "hhh321hhh",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Александр",
+							"type": "text"
+						},
+						{
+							"key": "middle_name",
+							"value": "Лиджиев",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Олегович",
+							"type": "text"
+						},
+						{
+							"key": "position_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://library/api/v1/register/worker",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"register",
+						"worker"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "taken",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "jrYdlf-uzYTJyE3cQ87RDdAYPBdmN1cW3E9EZPMtwnvW37fMIUuAVlifnB6B",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "book_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "days",
+							"value": "15",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://library/api/v1/taken",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"taken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "books",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "tLieGB1NaC7oYpb4jlk3UPTbb0LusfynY0D_kPrEdxV7jdNKxh8SRsyVKWJo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://library/api/v1/book?status=true&page=2",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"book"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Dic",
+							"disabled": true
+						},
+						{
+							"key": "status",
+							"value": "true"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "login",
+							"value": "Kir4ick",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "321zzz",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://library/api/v1/authorize",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"authorize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "worker-info",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "jrYdlf-uzYTJyE3cQ87RDdAYPBdmN1cW3E9EZPMtwnvW37fMIUuAVlifnB6B",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://library/api/v1/authorize/me",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"authorize",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "returned-list",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "jrYdlf-uzYTJyE3cQ87RDdAYPBdmN1cW3E9EZPMtwnvW37fMIUuAVlifnB6B",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://library/api/v1/returned",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"returned"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "returned",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "jrYdlf-uzYTJyE3cQ87RDdAYPBdmN1cW3E9EZPMtwnvW37fMIUuAVlifnB6B",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "taken_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "condition",
+							"value": "Отличное",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://library/api/v1/returned",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"returned"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "taken-list",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "jrYdlf-uzYTJyE3cQ87RDdAYPBdmN1cW3E9EZPMtwnvW37fMIUuAVlifnB6B",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://library/api/v1/taken",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"taken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "jrYdlf-uzYTJyE3cQ87RDdAYPBdmN1cW3E9EZPMtwnvW37fMIUuAVlifnB6B",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://library/api/v1/authorize/logout",
+					"protocol": "http",
+					"host": [
+						"library"
+					],
+					"path": [
+						"api",
+						"v1",
+						"authorize",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -12826,3 +12826,381 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1675108201.4393
     'REQUEST_TIME' => 1675108201
 ]
+2023-01-31 09:15:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-01-31 09:15:47 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '97fc1fda94c25938c1da90c295ddca6e372f041e6ed4852db9fb7b59675b3218a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"I01kdsbqXx0gAIgY8VC9diG3qr1QW-U6\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.0.2947 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://library/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9'
+    'HTTP_COOKIE' => '_csrf=97fc1fda94c25938c1da90c295ddca6e372f041e6ed4852db9fb7b59675b3218a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22I01kdsbqXx0gAIgY8VC9diG3qr1QW-U6%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '61113'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675145747.5343
+    'REQUEST_TIME' => 1675145747
+]
+2023-01-31 09:20:12 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-31 09:20:12 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '5650d7bce291edc746ec8baee79b5d571fd235f064c6e79fb0b7e8d8b38ddbbda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WRnNBG1vKEMBQcXxc-amV4DOvXn51w93\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '4251ba00-19c3-47a3-b6d2-c3e05a0ff4a5'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=5650d7bce291edc746ec8baee79b5d571fd235f064c6e79fb0b7e8d8b38ddbbda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WRnNBG1vKEMBQcXxc-amV4DOvXn51w93%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '54852'
+    'REDIRECT_URL' => '/api/v1/returned'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/returned'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675146011.9972
+    'REQUEST_TIME' => 1675146011
+]
+2023-01-31 09:21:33 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-31 09:21:33 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f87392221c0d4d0403780e44e9d1b4c3332b6815b74fd50cbce14d39acb0971ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-5IXf7ZHB2ElFbYoEpjukCNp7N2XsFko\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '73cea9ec-8195-420b-bb28-a6190831c6cf'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=f87392221c0d4d0403780e44e9d1b4c3332b6815b74fd50cbce14d39acb0971ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-5IXf7ZHB2ElFbYoEpjukCNp7N2XsFko%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '54852'
+    'REDIRECT_URL' => '/api/v1/taken'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/taken'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675146093.0354
+    'REQUEST_TIME' => 1675146093
+]
+2023-01-31 09:25:54 [127.0.0.1][2][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\src\requests\TakenBookCreateRequest::book_name in D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\OpenServer\domains\library\src\services\TakenService.php(25): yii\base\Component->__get()
+#1 D:\OpenServer\domains\library\api\v1\controllers\TakenController.php(32): app\src\services\TakenService->createTaken()
+#2 [internal function]: app\api\v1\controllers\TakenController->actionCreate()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-01-31 09:25:54 [127.0.0.1][2][-][info][application] $_GET = []
+
+$_POST = [
+    'book_id' => '2'
+    'client_id' => '1'
+    'days' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'a9b06cb1f9bab459a2cc29cb756e523853322298cfcaf612a1e7a1d2191dc4daa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"e8vDw6botnG2QyynYzFAIoPjUdl4_KR7\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '2df5b400-9579-4e4f-9209-b783ec055ce5'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------846365065033807175753920'
+    'HTTP_COOKIE' => '_csrf=a9b06cb1f9bab459a2cc29cb756e523853322298cfcaf612a1e7a1d2191dc4daa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e8vDw6botnG2QyynYzFAIoPjUdl4_KR7%22%3B%7D'
+    'CONTENT_LENGTH' => '377'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '62720'
+    'REDIRECT_URL' => '/api/v1/taken'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/taken'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675146354.2558
+    'REQUEST_TIME' => 1675146354
+]
+2023-01-31 09:35:03 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#2 [internal function]: yii\base\ActionFilter->beforeFilter()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#5 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#6 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-01-31 09:35:03 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3a48b0a4be1e2aea29172a1dfada794b8d916a74bebd0261f7d723f22ad5a2b4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"h8LcKCR3DgRxLNPH62SgwOZ5xWcMegbH\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '81be89ad-c47b-4b3e-84df-6bb1d61bfda1'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf=3a48b0a4be1e2aea29172a1dfada794b8d916a74bebd0261f7d723f22ad5a2b4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22h8LcKCR3DgRxLNPH62SgwOZ5xWcMegbH%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '58036'
+    'REDIRECT_URL' => '/api/v1/taken'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/taken'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675146903.3276
+    'REQUEST_TIME' => 1675146903
+]
+2023-01-31 09:45:43 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServer\domains\library\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\AuthMethod->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#5 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#6 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Controller->beforeAction()
+#7 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#8 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2023-01-31 09:45:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'book_id' => '2'
+    'client_id' => '1'
+    'days' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '568b72afdcb331bb051f1e260e0b8ded5ca736a7b199e2623819ece477a417c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"y264bYGh2WkUrv41Ne3zDTJIIOBeu26d\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '607d959b-ec7d-473b-b155-d32c7fe7deed'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------089213619260180080298434'
+    'HTTP_COOKIE' => '_csrf=568b72afdcb331bb051f1e260e0b8ded5ca736a7b199e2623819ece477a417c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22y264bYGh2WkUrv41Ne3zDTJIIOBeu26d%22%3B%7D'
+    'CONTENT_LENGTH' => '377'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '59540'
+    'REDIRECT_URL' => '/api/v1/taken'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/taken'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675147543.0484
+    'REQUEST_TIME' => 1675147543
+]
