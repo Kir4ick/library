@@ -44,7 +44,7 @@ $this->title = 'My Yii Application';
                         rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center" type="submit">Искать</button>
 
                         <button class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-cyan-300
-                        rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center" type="reset">Сбросить</button>
+                        rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center" id="reset" type="reset">Сбросить</button>
                     </div>
 
                 </form>
@@ -218,7 +218,21 @@ $this->title = 'My Yii Application';
 
             getBooks(filters);
         })
-    }
+
+        $('#reset').on('click' ,function (e) {
+
+            if(title !== ''){
+                delete filters.title;
+            }
+
+            if(bookStatus !== undefined){
+                delete filters.status;
+            }
+
+            getBooks(filters);
+
+        });
+        }
 
     submitForm();
     getBooks(filters);
