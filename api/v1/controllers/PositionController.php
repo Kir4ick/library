@@ -4,6 +4,7 @@ namespace app\api\v1\controllers;
 
 use app\api\controllers\BaseApiActiveController;
 use app\src\models\Position;
+use yii\base\Exception;
 use yii\filters\AccessControl;
 
 class PositionController extends BaseApiActiveController
@@ -15,7 +16,7 @@ class PositionController extends BaseApiActiveController
         $behaviors = parent::behaviors();
         $behaviors['access'] = [
             'class' => AccessControl::class,
-            'only' => ['register-worker', 'register-client'],
+            'only' => ['index', 'view', 'create', 'update', 'delete'],
             'rules' => [
                 [
                     'allow'        => true,
