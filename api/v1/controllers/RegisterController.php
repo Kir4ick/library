@@ -7,6 +7,7 @@ use app\src\interfaces\RegisterServiceInterface;
 use app\src\requests\register\RegisterClientRequest;
 use app\src\requests\register\RegisterWorkerRequest;
 use yii\filters\AccessControl;
+use yii\web\ForbiddenHttpException;
 
 
 class RegisterController extends BaseApiController
@@ -36,7 +37,10 @@ class RegisterController extends BaseApiController
                         return \Yii::$app->user->identity->isWorker();
                     }
                 ],
-            ]
+            ],
+            'denyCallback' => function($rule, $action){
+                throw new ForbiddenHttpException('Доступ запрещён', 403);
+            }
         ];
         return $behaviors;
     }

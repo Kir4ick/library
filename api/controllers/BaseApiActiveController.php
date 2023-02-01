@@ -22,6 +22,7 @@ class BaseApiActiveController extends ActiveController
         $behaviors['authenticator'] = [
             'class' => HttpBearerAuth::class,
             'optional' => array_merge($this->noAuthActions, ['options']),
+
         ];
 
         return $behaviors;

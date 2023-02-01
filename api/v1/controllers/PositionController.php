@@ -6,6 +6,7 @@ use app\api\controllers\BaseApiActiveController;
 use app\src\models\Position;
 use yii\base\Exception;
 use yii\filters\AccessControl;
+use yii\web\ForbiddenHttpException;
 
 class PositionController extends BaseApiActiveController
 {
@@ -26,7 +27,10 @@ class PositionController extends BaseApiActiveController
                         return \Yii::$app->user->identity->isAdmin();
                     }
                 ]
-            ]
+            ],
+            'denyCallback' => function($rule, $action){
+                throw new ForbiddenHttpException('Доступ запрещён', 403);
+            }
         ];
         return $behaviors;
     }
