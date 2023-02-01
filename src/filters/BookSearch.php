@@ -15,7 +15,7 @@ class BookSearch extends QueryFilter
     }
 
     public function status(ActiveQuery $q, $value){
-        $q->andWhere(['status' => $value]);
+        $q->andWhere(['status' => (bool)$value]);
     }
 
     protected function getCallbacks():array

@@ -31,7 +31,8 @@ $config = [
                 yii::createObject([
                     'class' => yiier\helpers\ResponseHandler::class,
                     'event' => $event,
-                ])->formatResponse();
+                ])->formatResponse(
+                );
             },
         ],
         'cache' => [

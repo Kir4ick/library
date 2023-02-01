@@ -13853,3 +13853,69 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1675150857.8339
     'REQUEST_TIME' => 1675150857
 ]
+2023-02-01 13:54:12 [127.0.0.1][2][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Attempt to read property "errors" on array in D:\OpenServer\domains\library\api\v1\controllers\BookController.php:34
+Stack trace:
+#0 D:\OpenServer\domains\library\api\v1\controllers\BookController.php(34): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\api\v1\controllers\BookController->actionCreateBook()
+#2 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 D:\OpenServer\domains\library\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\OpenServer\domains\library\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 D:\OpenServer\domains\library\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-02-01 13:54:12 [127.0.0.1][2][-][info][application] $_GET = []
+
+$_POST = [
+    'author_name' => [
+        0 => 'Пушкин'
+        1 => 'Лермонтов'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '2d78c8612117d8870f7cf5db78c57f8593b2779974d9f3052564391d2a0a67bfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qQQMOnNi2jMgf1txfQN-QY7hQhxh5fFi\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '3cf0d70d-81f0-44c2-90f4-790f5b4009cc'
+    'HTTP_HOST' => 'library'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------381609375733973648506514'
+    'HTTP_COOKIE' => '_csrf=2d78c8612117d8870f7cf5db78c57f8593b2779974d9f3052564391d2a0a67bfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qQQMOnNi2jMgf1txfQN-QY7hQhxh5fFi%22%3B%7D'
+    'CONTENT_LENGTH' => '312'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_8.1\\ext;d:\\openserver\\modules\\php\\PHP_8.1\\pear;d:\\openserver\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.1;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\redis\\Redis-5.0;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\honor\\scoop\\shims;C:\\Users\\honor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\honor\\.dotnet\\tools;D:\\PhpStorm 2022.1.1\\bin;C:\\Users\\honor\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\honor\\AppData\\Roaming\\npm;D:\\OpenServer\\modules\\php\\PHP_8.0;C:\\Users\\honor\\scoop\\apps\\symfony-cli\\5.4.20'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/library'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/library/web/index.php'
+    'REMOTE_PORT' => '64666'
+    'REDIRECT_URL' => '/api/v1/book/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/book/create'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675248852.1769
+    'REQUEST_TIME' => 1675248852
+]

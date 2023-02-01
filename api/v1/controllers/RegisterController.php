@@ -57,7 +57,8 @@ class RegisterController extends BaseApiController
     public function actionRegisterClient(){
         $request = $this->validate(new RegisterClientRequest(), $this->params);
         if(is_array($request)){
-            return $request;
+            \Yii::$app->response->statusCode = 422;
+            return ['message' => 'Ошибка валидации', 'data' => $request, 'code' => 422];
         }
         return $this->registerService->registerClient($request);
     }
@@ -65,7 +66,8 @@ class RegisterController extends BaseApiController
     public function actionRegisterWorker(){
         $request = $this->validate(new RegisterWorkerRequest(), $this->params);
         if(is_array($request)){
-            return $request;
+            \Yii::$app->response->statusCode = 422;
+            return ['message' => 'Ошибка валидации', 'data' => $request, 'code' => 422];
         }
         return $this->registerService->registerWorker($request);
     }

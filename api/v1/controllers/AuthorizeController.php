@@ -19,7 +19,8 @@ class AuthorizeController extends BaseApiController
     public function actionAuthorize(){
         $request = $this->validate(new LoginRequest(), \Yii::$app->request->bodyParams);
         if(is_array($request)){
-            return $request;
+            \Yii::$app->response->statusCode = 422;
+            return ['message' => 'Ошибка валидации', 'data' => $request, 'code' => 422];
         }
 
         $token = \Yii::$app->user->identity->getAuthKey();

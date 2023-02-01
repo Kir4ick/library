@@ -26,7 +26,8 @@ class ReturnedController extends \app\api\controllers\BaseApiActiveController
     public function actionCreate(){
         $request = $this->validate(new ReturnedBookCreateRequest(), \Yii::$app->request->bodyParams);
         if(is_array($request)){
-            return $request;
+            \Yii::$app->response->statusCode = 422;
+            return ['message' => 'Ошибка валидации', 'data' => $request, 'code' => 422];;
         }
         return $this->returnedService->createReturned($request);
     }
